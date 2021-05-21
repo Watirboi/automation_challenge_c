@@ -1,3 +1,5 @@
+const moment = require('moment');
+
 exports.config = {
     //
     // ====================
@@ -136,12 +138,11 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: [
-        ['junit', {
-            outputDir: './reports',
-            outputFileFormat: function(options) { // optional
-                return `results-${options.cid}.${options.capabilities}.xml`
-            }
-        }]
+        ['allure', {
+            outputDir: 'allure-results',
+            disableWebdriverStepsReporting: true,
+            disableWebdriverScreenshotsReporting: true,
+        }],
     ],
 
 
@@ -247,6 +248,13 @@ exports.config = {
      */
     // afterStep: function (step, context) {
     // },
+    afterStep: (step, context, {error, result, duration, passed, retries}) => {
+        if (error) {
+            //browser.takeScreenshot();
+            browser.saveScreenshot('./reports/screenshots/Fail_' + 
+                                            moment().format('DD-MMM-YYYY-HH-MM-SS') + '.png') 
+        }
+    },  
     /**
      * Runs after a Cucumber scenario
      */

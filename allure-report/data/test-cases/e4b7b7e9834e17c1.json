@@ -1,0 +1,46 @@
+{
+  "uid" : "e4b7b7e9834e17c1",
+  "name" : "I should see a flash message saying Your username is invalid!",
+  "fullName" : "The Internet Guinea Pig Website: As a user, I can log into the secure area.I should see a flash message saying Your username is invalid!",
+  "historyId" : "fcba501f268315d2aef42fea547bc1ef",
+  "time" : {
+    "start" : 1621637052278,
+    "stop" : 1621637052278,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "I should see a flash message saying Your username is invalid!"
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4b7b7e9834e17c1.json",
+  "parameterValues" : [ ]
+}

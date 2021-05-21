@@ -1,0 +1,162 @@
+{
+  "uid" : "b9f25c4e747c9c33",
+  "name" : "Then I should see a flash message saying Your username is invalid!",
+  "fullName" : "The Internet Guinea Pig Website: As a user, I can log into the secure area.Then I should see a flash message saying Your username is invalid!",
+  "historyId" : "abd11cbcdfda193eb92e42815b265869",
+  "time" : {
+    "start" : 1621637487992,
+    "stop" : 1621637488036,
+    "duration" : 44
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see a flash message saying Your username is invalid!"
+  }, {
+    "name" : "package",
+    "value" : "The Internet Guinea Pig Website: As a user, I can log into the secure area"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d90274fbfdc3bd9d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621637446586,
+        "stop" : 0,
+        "duration" : -1621637446586
+      }
+    }, {
+      "uid" : "420a41673c784027",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621637406750,
+        "stop" : 0,
+        "duration" : -1621637406750
+      }
+    }, {
+      "uid" : "2633cdb189b557a6",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621637199468,
+        "stop" : 0,
+        "duration" : -1621637199468
+      }
+    }, {
+      "uid" : "fb965cbb981acb03",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621637101894,
+        "stop" : 0,
+        "duration" : -1621637101894
+      }
+    }, {
+      "uid" : "e441f16683ff7bd4",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1621637052278,
+        "stop" : 0,
+        "duration" : -1621637052278
+      }
+    }, {
+      "uid" : "ae16faaefe134035",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621637004867,
+        "stop" : 1621637004906,
+        "duration" : 39
+      }
+    }, {
+      "uid" : "86c12c0e38054964",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621636803561,
+        "stop" : 1621636803602,
+        "duration" : 41
+      }
+    }, {
+      "uid" : "8757c1c64ebf8989",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621636513734,
+        "stop" : 1621636513779,
+        "duration" : 45
+      }
+    }, {
+      "uid" : "fc9aa45b7e8c62c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621636370550,
+        "stop" : 1621636370596,
+        "duration" : 46
+      }
+    }, {
+      "uid" : "f1ded6133b4f7624",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621636273093,
+        "stop" : 1621636273135,
+        "duration" : 42
+      }
+    }, {
+      "uid" : "d8e56bbcc9980c77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621633876736,
+        "stop" : 1621633876779,
+        "duration" : 43
+      }
+    }, {
+      "uid" : "e1cb24e102090615",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621633303057,
+        "stop" : 1621633303104,
+        "duration" : 47
+      }
+    }, {
+      "uid" : "3f25f40d42965822",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621632966459,
+        "stop" : 1621632966504,
+        "duration" : 45
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9f25c4e747c9c33.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}
