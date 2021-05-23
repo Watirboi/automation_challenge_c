@@ -1,0 +1,58 @@
+{
+  "uid" : "c9a38b7a5e9b41f2",
+  "name" : "Then I expect that the h1 header contains the text flash drive",
+  "fullName" : "Product Search: I should be able to search for a product.Then I expect that the h1 header contains the text flash drive",
+  "historyId" : "a31c130431f803ed6328935a923e7d51",
+  "time" : {
+    "start" : 1621715183438,
+    "stop" : 1621715183438,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect that the h1 header contains the text flash drive"
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c9a38b7a5e9b41f2.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

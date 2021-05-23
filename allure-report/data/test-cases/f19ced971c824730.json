@@ -1,0 +1,235 @@
+{
+  "uid" : "f19ced971c824730",
+  "name" : "Given I open the url \"<url>\"",
+  "fullName" : "Product Search: I should be able to search for a product.Given I open the url \"<url>\"",
+  "historyId" : "c8464b35520d5673b3f1648ff770fc54",
+  "time" : {
+    "start" : 1621720121189,
+    "stop" : 1621720121191,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Parameter for \"url\" command needs to be type of string",
+  "statusTrace" : "Error: Parameter for \"url\" command needs to be type of string\n                    at LandingPage.open (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/pageobjects/page.js:11:17)\n                    at LandingPage.open (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/pageobjects/landing.page.js:22:15)\n                    at World.<anonymous> (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/step-definitions/steps.js:6:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the url \"<url>\""
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a5800fd3aa596d52",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720121184,
+        "stop" : 1621720121185,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2efda10d124891e",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720121178,
+        "stop" : 1621720121179,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "bf9ad0afcf8d9996",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720121172,
+        "stop" : 1621720121173,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "617998afaea26c67",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720121154,
+        "stop" : 1621720121161,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "f485995684cc8eb8",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720093680,
+        "stop" : 1621720093682,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "3b3b83ce3c0edef6",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720093675,
+        "stop" : 1621720093676,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e8f83e2c36fce49b",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720093669,
+        "stop" : 1621720093670,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2184dcae0f3f4efc",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720093663,
+        "stop" : 1621720093664,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f4535bc1f9ebb49f",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720093645,
+        "stop" : 1621720093652,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "1cd4d82e764a4c3d",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621719817464,
+        "stop" : 1621719817466,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "9681c5b815990ae6",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621719817457,
+        "stop" : 1621719817457,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "236cb6647a9a01d3",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621719817450,
+        "stop" : 1621719817451,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "23109472805a951a",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621719817444,
+        "stop" : 1621719817445,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "83eaf0c4ab0cecda",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621719817425,
+        "stop" : 1621719817428,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "a0afee4802eb72a",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621718912251,
+        "stop" : 1621718912607,
+        "duration" : 356
+      }
+    }, {
+      "uid" : "fe765b6b8cf37120",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621718911890,
+        "stop" : 1621718912244,
+        "duration" : 354
+      }
+    }, {
+      "uid" : "15c1a01e91bc191d",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621718911521,
+        "stop" : 1621718911884,
+        "duration" : 363
+      }
+    }, {
+      "uid" : "a37d3e69891ed86d",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621718911158,
+        "stop" : 1621718911515,
+        "duration" : 357
+      }
+    }, {
+      "uid" : "5982ea08083e488c",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621718910597,
+        "stop" : 1621718911145,
+        "duration" : 548
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f19ced971c824730.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

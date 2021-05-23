@@ -1,5 +1,3 @@
-const moment = require('moment');
-
 exports.config = {
     //
     // ====================
@@ -10,23 +8,19 @@ exports.config = {
     // on a remote machine).
     runner: 'local',
     //
+    // Override default path ('/wd/hub') for chromedriver service.
+    path: '/',
+    //
     // ==================
     // Specify Test Files
     // ==================
     // Define which test specs should run. The pattern is relative to the directory
-    // from which `wdio` was called.
-    //
-    // The specs are defined as an array of spec files (optionally using wildcards
-    // that will be expanded). The test for each spec file will be run in a separate
-    // worker process. In order to have a group of spec files run in the same worker
-    // process simply enclose them in an array within the specs array.
-    //
-    // If you are calling `wdio` from an NPM script (see https://docs.npmjs.com/cli/run-script),
-    // then the current working directory is where your `package.json` resides, so `wdio`
-    // will be called from there.
+    // from which `wdio` was called. Notice that, if you are calling `wdio` from an
+    // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
+    // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './features/**/*.feature'
+        './test/features/*.feature'
     ],
     // Patterns to exclude.
     exclude: [
@@ -48,21 +42,19 @@ exports.config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 1,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://docs.saucelabs.com/reference/platforms-configurator
     //
     capabilities: [{
-    
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
         maxInstances: 5,
         //
         browserName: 'chrome',
-        acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
@@ -82,9 +74,9 @@ exports.config = {
     // - webdriver, webdriverio
     // - @wdio/applitools-service, @wdio/browserstack-service, @wdio/devtools-service, @wdio/sauce-service
     // - @wdio/mocha-framework, @wdio/jasmine-framework
-    // - @wdio/local-runner
+    // - @wdio/local-runner, @wdio/lambda-runner
     // - @wdio/sumologic-reporter
-    // - @wdio/cli, @wdio/config, @wdio/utils
+    // - @wdio/cli, @wdio/config, @wdio/sync, @wdio/utils
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     // logLevels: {
     //     webdriver: 'info',
@@ -99,14 +91,14 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://localhost',
+    baseUrl: 'www.bestbuy.com',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
     //
     // Default timeout in milliseconds for request
-    // if browser driver or grid doesn't send response
-    connectionRetryTimeout: 120000,
+    // if Selenium Grid doesn't send response
+    connectionRetryTimeout: 90000,
     //
     // Default request retries count
     connectionRetryCount: 3,
@@ -116,10 +108,10 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: ['chromedriver'],
-    
+
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
-    // see also: https://webdriver.io/docs/frameworks
+    // see also: https://webdriver.io/docs/frameworks.html
     //
     // Make sure you have the wdio adapter package for the specific framework installed
     // before running any tests.
@@ -128,59 +120,37 @@ exports.config = {
     // The number of times to retry the entire specfile when it fails as a whole
     // specFileRetries: 1,
     //
-    // Delay in seconds between the spec file retry attempts
-    // specFileRetriesDelay: 0,
-    //
-    // Whether or not retried specfiles should be retried immediately or deferred to the end of the queue
-    // specFileRetriesDeferred: false,
-    //
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
-    // see also: https://webdriver.io/docs/dot-reporter
-    reporters: [
-        ['allure', {
-            outputDir: 'allure-results',
-            disableWebdriverStepsReporting: true,
-            disableWebdriverScreenshotsReporting: true,
-        }],
-        [video, {
-            saveAllVideos: false,       // If true, also saves videos for successful test cases
-            videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
-          }],
+    // see also: https://webdriver.io/docs/dot-reporter.html
+    reporters: ['spec',
+        [
+            'allure', {
+                outputDir: 'allure-results',
+                disableWebdriverStepsReporting: true,
+                disableWebdriverScreenshotsReporting: true,
+            }
+        ]
     ],
-
-
     //
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
-        // <string[]> (file/dir) require files before executing features
-        require: ['./features/step-definitions/steps.js'],
-        // <boolean> show full backtrace for errors
-        backtrace: false,
-        // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
-        requireModule: [],
-        // <boolean> invoke formatters without executing steps
-        dryRun: false,
-        // <boolean> abort the run on first failure
-        failFast: false,
-        // <string[]> (type[:path]) specify the output format, optionally supply PATH to redirect formatter output (repeatable)
-        format: ['pretty'],
-        // <boolean> hide step definition snippets for pending steps
-        snippets: true,
-        // <boolean> hide source uris
-        source: true,
-        // <string[]> (name) specify the profile to use
-        profile: [],
-        // <boolean> fail if there are any undefined or pending steps
-        strict: false,
-        // <string> (expression) only execute the features or scenarios with tags matching the expression
-        tagExpression: '',
-        // <number> timeout for step definitions
-        timeout: 60000,
-        // <boolean> Enable this config to treat undefined definitions as warnings.
-        ignoreUndefinedDefinitions: false
+        require: ['./test/step-definitions/*.js'], // <string[]> (file/dir) require files before executing features
+        backtrace: false, // <boolean> show full backtrace for errors
+        requireModule: ['@babel/register'], // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
+        dryRun: false, // <boolean> invoke formatters without executing steps
+        failFast: false, // <boolean> abort the run on first failure
+        format: ['pretty'], // <string[]> (type[:path]) specify the output format, optionally supply PATH to redirect formatter output (repeatable)
+        colors: true, // <boolean> disable colors in formatter output
+        snippets: true, // <boolean> hide step definition snippets for pending steps
+        source: true, // <boolean> hide source uris
+        profile: [], // <string[]> (name) specify the profile to use
+        strict: false, // <boolean> fail if there are any undefined or pending steps
+        tagExpression: '', // <string> (expression) only execute the features or scenarios with tags matching the expression
+        timeout: 60000, // <number> timeout for step definitions
+        ignoreUndefinedDefinitions: false, // <boolean> Enable this config to treat undefined definitions as warnings.
     },
-    
+
     //
     // =====
     // Hooks
@@ -197,17 +167,6 @@ exports.config = {
     // onPrepare: function (config, capabilities) {
     // },
     /**
-     * Gets executed before a worker process is spawned and can be used to initialise specific service
-     * for that worker as well as modify runtime environments in an async fashion.
-     * @param  {String} cid      capability id (e.g 0-0)
-     * @param  {[type]} caps     object containing capabilities for session that will be spawn in the worker
-     * @param  {[type]} specs    specs to be run in the worker process
-     * @param  {[type]} args     object that will be merged with the main configuration once worker is initialised
-     * @param  {[type]} execArgv list of string arguments passed to the worker process
-     */
-    // onWorkerStart: function (cid, caps, specs, args, execArgv) {
-    // },
-    /**
      * Gets executed just before initialising the webdriver session and test framework. It allows you
      * to manipulate configurations depending on the capability or spec.
      * @param {Object} config wdio configuration object
@@ -220,11 +179,11 @@ exports.config = {
      * Gets executed before test execution begins. At this point you can access to all global
      * variables like `browser`. It is the perfect place to define custom commands.
      * @param {Array.<Object>} capabilities list of capabilities details
-     * @param {Array.<String>} specs        List of spec file paths that are to be run
-     * @param {Object}         browser      instance of created browser/device session
+     * @param {Array.<String>} specs List of spec file paths that are to be run
      */
-    // before: function (capabilities, specs) {
-    // },
+    before: function (capabilities, specs) {
+        require('expect-webdriverio');
+    },
     /**
      * Runs before a WebdriverIO command gets executed.
      * @param {String} commandName hook command name
@@ -235,41 +194,34 @@ exports.config = {
     /**
      * Runs before a Cucumber feature
      */
-    // beforeFeature: function (uri, feature) {
+    // beforeFeature: function (uri, feature, scenarios) {
     // },
     /**
      * Runs before a Cucumber scenario
      */
-    // beforeScenario: function (world) {
+    // beforeScenario: function (uri, feature, scenario, sourceLocation) {
     // },
     /**
      * Runs before a Cucumber step
      */
-    // beforeStep: function (step, context) {
+    // beforeStep: function (uri, feature, stepData, context) {
     // },
     /**
      * Runs after a Cucumber step
      */
-    // afterStep: function (step, context) {
+    // afterStep: function (uri, feature, { error, result, duration, passed }, stepData, context) {
     // },
-    afterStep: (step, context, {error, result, duration, passed, retries}) => {
-        if (error) {
-            //browser.takeScreenshot();
-            browser.saveScreenshot('./reports/screenshots/Fail_' + 
-                                            moment().format('DD-MMM-YYYY-HH-MM-SS') + '.png') 
-        }
-    },  
     /**
      * Runs after a Cucumber scenario
      */
-    // afterScenario: function (world) {
+    // afterScenario: function (uri, feature, scenario, result, sourceLocation) {
     // },
     /**
      * Runs after a Cucumber feature
      */
-    // afterFeature: function (uri, feature) {
+    // afterFeature: function (uri, feature, scenarios) {
     // },
-    
+
     /**
      * Runs after a WebdriverIO command gets executed
      * @param {String} commandName hook command name
@@ -307,10 +259,10 @@ exports.config = {
     // onComplete: function(exitCode, config, capabilities, results) {
     // },
     /**
-    * Gets executed when a refresh happens.
-    * @param {String} oldSessionId session ID of the old session
-    * @param {String} newSessionId session ID of the new session
-    */
+     * Gets executed when a refresh happens.
+     * @param {String} oldSessionId session ID of the old session
+     * @param {String} newSessionId session ID of the new session
+     */
     //onReload: function(oldSessionId, newSessionId) {
     //}
 }

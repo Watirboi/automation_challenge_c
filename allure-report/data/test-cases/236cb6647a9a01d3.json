@@ -1,0 +1,58 @@
+{
+  "uid" : "236cb6647a9a01d3",
+  "name" : "Given I open the url \"<url>\"",
+  "fullName" : "Product Search: I should be able to search for a product.Given I open the url \"<url>\"",
+  "historyId" : "c8464b35520d5673b3f1648ff770fc54",
+  "time" : {
+    "start" : 1621719817450,
+    "stop" : 1621719817451,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+  "statusTrace" : "Error: function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function\n                    at /Users/kapatrickwhitfield/development/projects/automation_challenge_c/node_modules/cucumber/lib/user_code_runner.js:56:18\n                    at Generator.next (<anonymous>)\n                    at asyncGeneratorStep (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/node_modules/cucumber/lib/user_code_runner.js:18:103)\n                    at _next (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/node_modules/cucumber/lib/user_code_runner.js:20:194)\n                    at /Users/kapatrickwhitfield/development/projects/automation_challenge_c/node_modules/cucumber/lib/user_code_runner.js:20:364\n                    at new Promise (<anonymous>)\n                    at /Users/kapatrickwhitfield/development/projects/automation_challenge_c/node_modules/cucumber/lib/user_code_runner.js:20:97\n                    at Function.run (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/node_modules/cucumber/lib/user_code_runner.js:109:7)\n                    at Object.<anonymous> (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/node_modules/cucumber/lib/runtime/step_runner.js:59:54)\n                    at Generator.next (<anonymous>)\n                    at asyncGeneratorStep (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/node_modules/cucumber/lib/runtime/step_runner.js:20:103)\n                    at _next (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/node_modules/cucumber/lib/runtime/step_runner.js:22:194)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the url \"<url>\""
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "236cb6647a9a01d3.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

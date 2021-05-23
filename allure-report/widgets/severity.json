@@ -1,81 +1,211 @@
 [ {
-  "uid" : "b9f25c4e747c9c33",
-  "name" : "Then I should see a flash message saying Your username is invalid!",
+  "uid" : "a1023c9fe438eceb",
+  "name" : "Given I open the url <url>",
   "time" : {
-    "start" : 1621637487992,
-    "stop" : 1621637488036,
-    "duration" : 44
+    "start" : 1621720155141,
+    "stop" : 1621720155141,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1e9195eaf22e935f",
+  "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive",
+  "time" : {
+    "start" : 1621714938451,
+    "stop" : 1621714938451,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "960d74937b00cebb",
+  "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone",
+  "time" : {
+    "start" : 1621714950399,
+    "stop" : 1621714950399,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2166e01129c8ae2d",
+  "name" : "When I set records vinyl to the BestBuy search field",
+  "time" : {
+    "start" : 1621724542188,
+    "stop" : 1621724550874,
+    "duration" : 8686
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a7a84244aeeb469f",
-  "name" : "When I login with tomsmith and SuperSecretPassword!",
+  "uid" : "f19ced971c824730",
+  "name" : "Given I open the url \"<url>\"",
   "time" : {
-    "start" : 1621637486952,
-    "stop" : 1621637487429,
-    "duration" : 477
+    "start" : 1621720121189,
+    "stop" : 1621720121191,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e66bc7f59d6b4147",
+  "name" : "Then I expect that the h1 header contains the text flash drive",
+  "time" : {
+    "start" : 1621724563404,
+    "stop" : 1621724563656,
+    "duration" : 252
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8861fe7c18d436b0",
-  "name" : "",
+  "uid" : "ac2b86b4bbd93730",
+  "name" : "When I set mobile phone to the BestBuy search field",
   "time" : {
-    "start" : 1621637488036,
-    "stop" : 1621637488037,
+    "start" : 1621724567004,
+    "stop" : 1621724571508,
+    "duration" : 4504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc45961f0a103685",
+  "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums",
+  "time" : {
+    "start" : 1621714892051,
+    "stop" : 1621714892052,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a15a959f56966de4",
+  "name" : "Then I should be able to filter by condition",
+  "time" : {
+    "start" : 1621724576561,
+    "stop" : 1621724576561,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "72d7581a38da977",
+  "name" : "When I set flash drive to the BestBuy search field",
+  "time" : {
+    "start" : 1621724555316,
+    "stop" : 1621724563404,
+    "duration" : 8088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10afc7e9693ea883",
+  "name" : "Then I expect that the h1 header contains the text records vinyl",
+  "time" : {
+    "start" : 1621724550874,
+    "stop" : 1621724551106,
+    "duration" : 232
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31cca017f5c9f688",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1621724576561,
+    "stop" : 1621724576562,
     "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3e475d3c785f649d",
-  "name" : "Then I should see a flash message saying You logged into a secure area!",
+  "uid" : "76668f3356533a0f",
+  "name" : "When I set vacuums to the BestBuy search field",
   "time" : {
-    "start" : 1621637487429,
-    "stop" : 1621637487483,
-    "duration" : 54
+    "start" : 1621724514607,
+    "stop" : 1621724524659,
+    "duration" : 10052
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a048b78e5b1e8a5",
-  "name" : "I should see a flash message saying You logged into a secure area!",
+  "uid" : "5421babcd62277c2",
+  "name" : "When I set tablets to the BestBuy search field",
   "time" : {
-    "start" : 1621637446304,
-    "stop" : 1621637446304,
+    "start" : 1621724529439,
+    "stop" : 1621724533732,
+    "duration" : 4293
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97d4cf8438356bf0",
+  "name" : "Given I open the url \"https://www.bestbuy.com\"",
+  "time" : {
+    "start" : 1621719558160,
+    "stop" : 1621719558532,
+    "duration" : 372
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ce89cbe0744430d7",
+  "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text tablets",
+  "time" : {
+    "start" : 1621714904702,
+    "stop" : 1621714904703,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a6267a1e59a8b22",
+  "name" : "Then I expect that the h1 header contains the text tablets",
+  "time" : {
+    "start" : 1621724533732,
+    "stop" : 1621724538782,
+    "duration" : 5050
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "44885bcd87e3947e",
+  "name" : "Then I expect that the h1 header contains the text mobile phone",
+  "time" : {
+    "start" : 1621724571508,
+    "stop" : 1621724576560,
+    "duration" : 5052
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "302d01d6a18e6ca7",
+  "name" : "Then I expect that the h1 header contains the text vacuums",
+  "time" : {
+    "start" : 1621724524659,
+    "stop" : 1621724524883,
+    "duration" : 224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b44b677fb636e4ac",
+  "name" : "Given I open the url \"www.bestbuy.com\"",
+  "time" : {
+    "start" : 1621724563663,
+    "stop" : 1621724567003,
+    "duration" : 3340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd98787952e643cc",
+  "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl",
+  "time" : {
+    "start" : 1621714923639,
+    "stop" : 1621714923639,
     "duration" : 0
   },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "2f1868ab59d1b18e",
-  "name" : "When I login with foobar and barfoo",
-  "time" : {
-    "start" : 1621637487623,
-    "stop" : 1621637487992,
-    "duration" : 369
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1c02a7df940e2b87",
-  "name" : "Given I am on the login page",
-  "time" : {
-    "start" : 1621637487492,
-    "stop" : 1621637487623,
-    "duration" : 131
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "abfa27505729d508",
-  "name" : "I should see a flash message saying Your username is invalid!",
-  "time" : {
-    "start" : 1621637446586,
-    "stop" : 1621637446586,
-    "duration" : 0
-  },
-  "status" : "skipped",
+  "status" : "failed",
   "severity" : "normal"
 } ]

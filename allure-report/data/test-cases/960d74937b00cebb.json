@@ -1,0 +1,136 @@
+{
+  "uid" : "960d74937b00cebb",
+  "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone",
+  "fullName" : "Product Search: I should be able to search for a product.Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone",
+  "historyId" : "9266188fa547ba87b92ffc31497832b8",
+  "time" : {
+    "start" : 1621714950399,
+    "stop" : 1621714950399,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "undefined:undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone"
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c3bd2400f85d8cb7",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714842542,
+        "stop" : 1621714842542,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "733045ead497efa4",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714766193,
+        "stop" : 1621714766193,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "34a782d2f5bf71ae",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714298726,
+        "stop" : 1621714298726,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4946815fe777d10a",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714261414,
+        "stop" : 1621714261415,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "fd10d69ce4991edb",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714145075,
+        "stop" : 1621714145075,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8cc7cfbf9627185c",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713946563,
+        "stop" : 1621713946563,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db4387b4c175d308",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713265248,
+        "stop" : 1621713265248,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ae81e6a775f07e12",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713095138,
+        "stop" : 1621713095138,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "960d74937b00cebb.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

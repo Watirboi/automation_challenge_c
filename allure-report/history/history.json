@@ -1,154 +1,410 @@
 {
-  "ac3c61eaf6574b767b588ae8121d4da9" : {
+  "35048b155b8744bddf8c27cd3ccac43d" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b44b677fb636e4ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621724563663,
+        "stop" : 1621724567003,
+        "duration" : 3340
+      }
+    } ]
+  },
+  "6e7f2f6dc42d22d5ae4063cbd0c1b0d1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5421babcd62277c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621724529439,
+        "stop" : 1621724533732,
+        "duration" : 4293
+      }
+    } ]
+  },
+  "3edb447e89085f6c985b213b8221eb02" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac2b86b4bbd93730",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621724567004,
+        "stop" : 1621724571508,
+        "duration" : 4504
+      }
+    } ]
+  },
+  "c8464b35520d5673b3f1648ff770fc54" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a048b78e5b1e8a5",
-      "status" : "skipped",
-      "statusDetails" : "Test ignored",
+      "uid" : "f19ced971c824730",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
       "time" : {
-        "start" : 1621637446304,
-        "stop" : 1621637446304,
+        "start" : 1621720121189,
+        "stop" : 1621720121191,
+        "duration" : 2
+      }
+    } ]
+  },
+  "2851e7bd444b2d4c9e11a0f0f45ef9c9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "302d01d6a18e6ca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621724524659,
+        "stop" : 1621724524883,
+        "duration" : 224
+      }
+    } ]
+  },
+  "fb463fa4dfbefcb3ae1256215f56b161" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "44885bcd87e3947e",
+      "status" : "broken",
+      "statusDetails" : "element (\"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1621724571508,
+        "stop" : 1621724576560,
+        "duration" : 5052
+      }
+    } ]
+  },
+  "fba4eb6fce79138aed21bffd12e2e88f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "72d7581a38da977",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621724555316,
+        "stop" : 1621724563404,
+        "duration" : 8088
+      }
+    } ]
+  },
+  "4313464906ea179b341b95720137d9ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a15a959f56966de4",
+      "status" : "broken",
+      "statusDetails" : "Step \"Then I should be able to filter by condition\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621724576561,
+        "stop" : 1621724576561,
         "duration" : 0
       }
     } ]
   },
-  "e57acdb7d8e516957690d2223048cf76" : {
+  "9266188fa547ba87b92ffc31497832b8" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a7a84244aeeb469f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621637486952,
-        "stop" : 1621637487429,
-        "duration" : 477
-      }
-    } ]
-  },
-  "abd11cbcdfda193eb92e42815b265869" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b9f25c4e747c9c33",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621637487992,
-        "stop" : 1621637488036,
-        "duration" : 44
-      }
-    } ]
-  },
-  "905185fc579c452c3cf719b83a97b0f8" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "3e475d3c785f649d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621637487429,
-        "stop" : 1621637487483,
-        "duration" : 54
-      }
-    } ]
-  },
-  "e4795c9c341b14d7e4a6c0092d50dabe" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8861fe7c18d436b0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621637488036,
-        "stop" : 1621637488037,
-        "duration" : 1
-      }
-    } ]
-  },
-  "46bbaaa11c14185fddd475907e118792" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "1c02a7df940e2b87",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621637487492,
-        "stop" : 1621637487623,
-        "duration" : 131
-      }
-    } ]
-  },
-  "26317b72c2d3a3d8c2279e4e6a9904c8" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2f1868ab59d1b18e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621637487623,
-        "stop" : 1621637487992,
-        "duration" : 369
-      }
-    } ]
-  },
-  "fcba501f268315d2aef42fea547bc1ef" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "abfa27505729d508",
-      "status" : "skipped",
-      "statusDetails" : "Test ignored",
+      "uid" : "960d74937b00cebb",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
       "time" : {
-        "start" : 1621637446586,
-        "stop" : 1621637446586,
+        "start" : 1621714950399,
+        "stop" : 1621714950399,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a31c130431f803ed6328935a923e7d51" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e66bc7f59d6b4147",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621724563404,
+        "stop" : 1621724563656,
+        "duration" : 252
+      }
+    } ]
+  },
+  "9b97c2cb059c858bc92b3fc9d1d56a4c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "97d4cf8438356bf0",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621719558160,
+        "stop" : 1621719558532,
+        "duration" : 372
+      }
+    } ]
+  },
+  "96182e06963c404c89b5f58efe7844d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fc45961f0a103685",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714892051,
+        "stop" : 1621714892052,
+        "duration" : 1
+      }
+    } ]
+  },
+  "ecfbcbc616d623f44b4ae1e2ee4a2d69" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce89cbe0744430d7",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text tablets\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714904702,
+        "stop" : 1621714904703,
+        "duration" : 1
+      }
+    } ]
+  },
+  "464f5556fafbaad1768b6e08bbc60fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6a6267a1e59a8b22",
+      "status" : "broken",
+      "statusDetails" : "element (\"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1621724533732,
+        "stop" : 1621724538782,
+        "duration" : 5050
+      }
+    } ]
+  },
+  "acf09dfebbbefb8a75563c0dc7032bf8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fd98787952e643cc",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714923639,
+        "stop" : 1621714923639,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5832e718de6b74d5cabb469057001651" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "76668f3356533a0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621724514607,
+        "stop" : 1621724524659,
+        "duration" : 10052
+      }
+    } ]
+  },
+  "397a15bc7254c9a451ce0e07c9a56818" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31cca017f5c9f688",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621724576561,
+        "stop" : 1621724576562,
+        "duration" : 1
+      }
+    } ]
+  },
+  "b922e3ee8eca3515246d9aa92b33274a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2166e01129c8ae2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621724542188,
+        "stop" : 1621724550874,
+        "duration" : 8686
+      }
+    } ]
+  },
+  "4cd45d650dbf26dd065dd80690f7bb52" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10afc7e9693ea883",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621724550874,
+        "stop" : 1621724551106,
+        "duration" : 232
+      }
+    } ]
+  },
+  "249ca44bf85474e58826a87a0755779b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e9195eaf22e935f",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714938451,
+        "stop" : 1621714938451,
+        "duration" : 0
+      }
+    } ]
+  },
+  "999d89d019185017cb5587deb263393d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1023c9fe438eceb",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621720155141,
+        "stop" : 1621720155141,
         "duration" : 0
       }
     } ]

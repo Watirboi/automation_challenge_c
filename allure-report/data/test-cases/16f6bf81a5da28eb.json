@@ -1,0 +1,56 @@
+{
+  "uid" : "16f6bf81a5da28eb",
+  "name" : "When I set tablets to the BestBuy search field",
+  "fullName" : "Product Search: I should be able to search for a product.When I set tablets to the BestBuy search field",
+  "historyId" : "6e7f2f6dc42d22d5ae4063cbd0c1b0d1",
+  "time" : {
+    "start" : 1621721245823,
+    "stop" : 1621721249926,
+    "duration" : 4103
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I set tablets to the BestBuy search field"
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16f6bf81a5da28eb.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

@@ -1,0 +1,418 @@
+{
+  "uid" : "6a6267a1e59a8b22",
+  "name" : "Then I expect that the h1 header contains the text tablets",
+  "fullName" : "Product Search: I should be able to search for a product.Then I expect that the h1 header contains the text tablets",
+  "historyId" : "464f5556fafbaad1768b6e08bbc60fc",
+  "time" : {
+    "start" : 1621724533732,
+    "stop" : 1621724538782,
+    "duration" : 5050
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\") still not displayed after 5000ms",
+  "statusTrace" : "Error: element (\"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\") still not displayed after 5000ms\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at LandingPage.verifySearchDisplayedInResultsForText (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/pageobjects/landing.page.js:49:32)\n                    at World.<anonymous> (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/step-definitions/steps.js:18:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect that the h1 header contains the text tablets"
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4fe8f4ec1cac023c",
+      "status" : "broken",
+      "statusDetails" : "element (\"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1621721638936,
+        "stop" : 1621721643994,
+        "duration" : 5058
+      }
+    }, {
+      "uid" : "ed387a7d8265b2e",
+      "status" : "broken",
+      "statusDetails" : "element (\"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1621721249926,
+        "stop" : 1621721254999,
+        "duration" : 5073
+      }
+    }, {
+      "uid" : "7a9c1b64effc0a33",
+      "status" : "broken",
+      "statusDetails" : "element (\"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1621720689252,
+        "stop" : 1621720694291,
+        "duration" : 5039
+      }
+    }, {
+      "uid" : "49d5627314d1302e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720632162,
+        "stop" : 1621720632162,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "19058e561d3a6c79",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720564356,
+        "stop" : 1621720564356,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ad8ea7172392a041",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720533790,
+        "stop" : 1621720533791,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7bd0dba33551b077",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720449632,
+        "stop" : 1621720449632,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "70c1574ba6ae9b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720370743,
+        "stop" : 1621720370743,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4c81b165420444c9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720344343,
+        "stop" : 1621720344344,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "332e1f1cc2a37b2b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720288022,
+        "stop" : 1621720288022,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "34ff23a11cf376c5",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720269864,
+        "stop" : 1621720269864,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec3bb5eb3092559a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720228379,
+        "stop" : 1621720228380,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "38936a8903c959f0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720170537,
+        "stop" : 1621720170537,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a995f69bc501b715",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720155125,
+        "stop" : 1621720155125,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bdf0a9a050a647eb",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720121174,
+        "stop" : 1621720121174,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "190b0df8d6d60739",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720093665,
+        "stop" : 1621720093665,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7d1656331178001a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719817446,
+        "stop" : 1621719817446,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8b28fc3336852534",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719682541,
+        "stop" : 1621719682541,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3c79e2215f0138cd",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719660754,
+        "stop" : 1621719660754,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dcd0f96aa427a01a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719614628,
+        "stop" : 1621719614628,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "57bc7d0e51a0a6af",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719557388,
+        "stop" : 1621719557388,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cf93457d17b6a5c8",
+      "status" : "broken",
+      "statusDetails" : "element (\"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1621719465305,
+        "stop" : 1621719470344,
+        "duration" : 5039
+      }
+    }, {
+      "uid" : "3eed85d1230bc5d6",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719287145,
+        "stop" : 1621719287146,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "fd901d0adf7fdbd3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718936838,
+        "stop" : 1621718936838,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8bd150b187ced304",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718911516,
+        "stop" : 1621718911516,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5222f9014619f833",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718720260,
+        "stop" : 1621718720260,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "79e228a09f1c071e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718674763,
+        "stop" : 1621718674763,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2e742b129b4d04d2",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that the h1 header contains the text tablets\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718600154,
+        "stop" : 1621718600154,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "99fa7a96bcae845c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718517239,
+        "stop" : 1621718517240,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ae03ea17047120a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718045034,
+        "stop" : 1621718045034,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eff495a90f04f2da",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717965206,
+        "stop" : 1621717965206,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "84750639ce0994b1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717554060,
+        "stop" : 1621717554060,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2e9e74338db68702",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717467310,
+        "stop" : 1621717467310,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e9fa867216acaecb",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717417125,
+        "stop" : 1621717417125,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9d9cc440ef0438d9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717319454,
+        "stop" : 1621717319454,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e7e69cc0249268de",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717279092,
+        "stop" : 1621717279092,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "85787fc4956a8784",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717192531,
+        "stop" : 1621717192531,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "449434b957298b9c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717100798,
+        "stop" : 1621717100799,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b56ce4c8300642f7",
+      "status" : "broken",
+      "statusDetails" : "element (\"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1621716706409,
+        "stop" : 1621716711439,
+        "duration" : 5030
+      }
+    }, {
+      "uid" : "2464687d772b0427",
+      "status" : "broken",
+      "statusDetails" : "element (\"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1621716514507,
+        "stop" : 1621716519560,
+        "duration" : 5053
+      }
+    }, {
+      "uid" : "e12c6892bd8a7df9",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" because element wasn't found",
+      "time" : {
+        "start" : 1621716036939,
+        "stop" : 1621716047035,
+        "duration" : 10096
+      }
+    }, {
+      "uid" : "a57d67917f0cd4e",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" because element wasn't found",
+      "time" : {
+        "start" : 1621715626198,
+        "stop" : 1621715636254,
+        "duration" : 10056
+      }
+    }, {
+      "uid" : "17247cd978b1cddf",
+      "status" : "broken",
+      "statusDetails" : "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)",
+      "time" : {
+        "start" : 1621715146228,
+        "stop" : 1621715146228,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6a6267a1e59a8b22.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

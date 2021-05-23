@@ -1,0 +1,405 @@
+{
+  "uid" : "302d01d6a18e6ca7",
+  "name" : "Then I expect that the h1 header contains the text vacuums",
+  "fullName" : "Product Search: I should be able to search for a product.Then I expect that the h1 header contains the text vacuums",
+  "historyId" : "2851e7bd444b2d4c9e11a0f0f45ef9c9",
+  "time" : {
+    "start" : 1621724524659,
+    "stop" : 1621724524883,
+    "duration" : 224
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect that the h1 header contains the text vacuums"
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ff240603a45d3544",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721630066,
+        "stop" : 1621721630202,
+        "duration" : 136
+      }
+    }, {
+      "uid" : "f9ce86b48f5b0988",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721240304,
+        "stop" : 1621721240837,
+        "duration" : 533
+      }
+    }, {
+      "uid" : "e492a19c3dcf30e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621720675784,
+        "stop" : 1621720675968,
+        "duration" : 184
+      }
+    }, {
+      "uid" : "bddad62eac38f924",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720632150,
+        "stop" : 1621720632150,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5c2e232e4a1dc05b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720564345,
+        "stop" : 1621720564345,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "39a621ca3902d4f2",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720533779,
+        "stop" : 1621720533779,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bef59a4c04200578",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720449622,
+        "stop" : 1621720449622,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a805ef55f2a4b6ce",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720370732,
+        "stop" : 1621720370732,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "68cbced4e1fe5b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720344330,
+        "stop" : 1621720344331,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "80fd195753ef4190",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720288010,
+        "stop" : 1621720288011,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2120fd8672323ef5",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720269853,
+        "stop" : 1621720269853,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2a455194c7f16136",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720227393,
+        "stop" : 1621720227393,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "439aa34a484b541f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720170524,
+        "stop" : 1621720170524,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "23230a95091734f4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720155113,
+        "stop" : 1621720155114,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a1b3ac9b7266c338",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720121162,
+        "stop" : 1621720121162,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "97465f86c65f57d6",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720093653,
+        "stop" : 1621720093653,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8ffca4325e9ba71a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719817435,
+        "stop" : 1621719817435,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b06121c4d1921337",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719682529,
+        "stop" : 1621719682530,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a039812227b3ead9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719660741,
+        "stop" : 1621719660741,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b195a31f1d17a221",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719614259,
+        "stop" : 1621719614259,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "88d0a56ecc719d07",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719557004,
+        "stop" : 1621719557005,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c13cb7042045409f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621719456375,
+        "stop" : 1621719457048,
+        "duration" : 673
+      }
+    }, {
+      "uid" : "f3c62596df1f22a7",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719281628,
+        "stop" : 1621719281629,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6690181698aa9e74",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718936034,
+        "stop" : 1621718936034,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5b21c9be2a70ed3b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718911147,
+        "stop" : 1621718911147,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8cbb7ff8f3314ba4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718720250,
+        "stop" : 1621718720250,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5a543308766e8d9c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718674752,
+        "stop" : 1621718674753,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "71f373e55a5b47ab",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that the h1 header contains the text vacuums\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718600143,
+        "stop" : 1621718600143,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d1664d8fead6f14b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718517228,
+        "stop" : 1621718517228,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b5bfa59ceac284d0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718045023,
+        "stop" : 1621718045023,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "836fb2bb3503c4d2",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717965194,
+        "stop" : 1621717965194,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5b3ad6da4b117602",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717554050,
+        "stop" : 1621717554050,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2a3fa4feef1d6a26",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717467299,
+        "stop" : 1621717467300,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e94a170b20c38ca3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717417115,
+        "stop" : 1621717417116,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "446b321a83fe72e5",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717319037,
+        "stop" : 1621717319037,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "30b8a6df928ba1aa",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717279063,
+        "stop" : 1621717279064,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2e4d67aaf8a24318",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717192514,
+        "stop" : 1621717192514,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8c349161758bc4d7",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717100787,
+        "stop" : 1621717100787,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a807f12ca2cb6bcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716696746,
+        "stop" : 1621716697040,
+        "duration" : 294
+      }
+    }, {
+      "uid" : "62828d060054f2cd",
+      "status" : "broken",
+      "statusDetails" : "assert is not a function",
+      "time" : {
+        "start" : 1621716504340,
+        "stop" : 1621716504788,
+        "duration" : 448
+      }
+    }, {
+      "uid" : "7e32ec37fbdff0e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716027636,
+        "stop" : 1621716027756,
+        "duration" : 120
+      }
+    }, {
+      "uid" : "5863066cec7b8bb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715616920,
+        "stop" : 1621715617183,
+        "duration" : 263
+      }
+    }, {
+      "uid" : "64ff534c8c421f6",
+      "status" : "broken",
+      "statusDetails" : "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)",
+      "time" : {
+        "start" : 1621715133049,
+        "stop" : 1621715133051,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "302d01d6a18e6ca7.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

@@ -1,0 +1,111 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621730293643' stop='1621730325326'>
+    <name>Product Search: I should be able to search for a product</name>
+    <title>Product Search: I should be able to search for a product</title>
+    <test-cases>
+        <test-case start='1621730293644' status='passed' stop='1621730293646'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621730293647' status='passed' stop='1621730301154'>
+            <name>Given I open the url "www.bestbuy.com"</name>
+            <title>Given I open the url "www.bestbuy.com"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621730301154' status='passed' stop='1621730310297'>
+            <name>When I set television to the BestBuy search field</name>
+            <title>When I set television to the BestBuy search field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621730310297' status='passed' stop='1621730310868'>
+            <name>Then I expect that the h1 header contains the text television</name>
+            <title>Then I expect that the h1 header contains the text television</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621730310868' status='broken' stop='1621730325323'>
+            <name>Then I should be able to filter by selected conditions</name>
+            <title>Then I should be able to filter by selected conditions</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call scrollIntoView on element with selector "#giftcenter_facet-For-Her-1" because element wasn't found</message>
+                <stack-trace>Error: Can't call scrollIntoView on element with selector "#giftcenter_facet-For-Her-1" because element wasn't found
+                    at LandingPage.applyGiftIdeasForHerFilter (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/pageobjects/landing.page.js:74:42)
+                    at World.&lt;anonymous> (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/step-definitions/steps.js:25:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621730325324' status='pending' stop='1621730325324'>
+            <name>Then I should be able to filter by open-box condition</name>
+            <title>Then I should be able to filter by open-box condition</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621730325325' status='passed' stop='1621730325325'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,58 @@
+{
+  "uid" : "23f0340732c9b9fd",
+  "name" : "When I set tablets to the BestBuy search field",
+  "fullName" : "Product Search: I should be able to search for a product.When I set tablets to the BestBuy search field",
+  "historyId" : "6e7f2f6dc42d22d5ae4063cbd0c1b0d1",
+  "time" : {
+    "start" : 1621714250375,
+    "stop" : 1621714250375,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"When I set tablets to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "undefined:undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I set tablets to the BestBuy search field"
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23f0340732c9b9fd.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

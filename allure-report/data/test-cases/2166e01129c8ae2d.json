@@ -1,0 +1,484 @@
+{
+  "uid" : "2166e01129c8ae2d",
+  "name" : "When I set records vinyl to the BestBuy search field",
+  "fullName" : "Product Search: I should be able to search for a product.When I set records vinyl to the BestBuy search field",
+  "historyId" : "b922e3ee8eca3515246d9aa92b33274a",
+  "time" : {
+    "start" : 1621724542188,
+    "stop" : 1621724550874,
+    "duration" : 8686
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I set records vinyl to the BestBuy search field"
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6e5e5965a6317f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721647772,
+        "stop" : 1621721656554,
+        "duration" : 8782
+      }
+    }, {
+      "uid" : "c49e1b20d1bdba44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721259136,
+        "stop" : 1621721267089,
+        "duration" : 7953
+      }
+    }, {
+      "uid" : "60ac098bc1eb8d00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621720698395,
+        "stop" : 1621720708164,
+        "duration" : 9769
+      }
+    }, {
+      "uid" : "c3dd2ed1d762eeb9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720632168,
+        "stop" : 1621720632168,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "de250d5e332cc46c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720564362,
+        "stop" : 1621720564362,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a7d33a51180e8de7",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720533797,
+        "stop" : 1621720533797,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cc3931344ea9cea0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720449637,
+        "stop" : 1621720449637,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f292072932dd0605",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720370749,
+        "stop" : 1621720370749,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ae27e3fc760e8971",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720344351,
+        "stop" : 1621720344351,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f422c355e07718aa",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720288028,
+        "stop" : 1621720288028,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "585e00d3c0d4b814",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720269870,
+        "stop" : 1621720269870,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d54293743e1a60",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720230693,
+        "stop" : 1621720230693,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "331efb3bc388929c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720170543,
+        "stop" : 1621720170543,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a03a1dbcf68a47cc",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720155131,
+        "stop" : 1621720155131,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "482ca75a755940ab",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720121179,
+        "stop" : 1621720121180,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6740ca6523c2bd3a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720093670,
+        "stop" : 1621720093671,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a4dc98c2869a2b46",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719817452,
+        "stop" : 1621719817452,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec96144a9c90fb36",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719682547,
+        "stop" : 1621719682547,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "345b8cc60c929dd4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719660760,
+        "stop" : 1621719660760,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aa893a32db476d34",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719615016,
+        "stop" : 1621719615016,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a1ffd374da525ff8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719557770,
+        "stop" : 1621719557770,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "763629913e6657d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621719474022,
+        "stop" : 1621719483032,
+        "duration" : 9010
+      }
+    }, {
+      "uid" : "e3d97a7b301efef2",
+      "status" : "broken",
+      "statusDetails" : "element (\"#gh-search-input\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1621719287155,
+        "stop" : 1621719292168,
+        "duration" : 5013
+      }
+    }, {
+      "uid" : "99eaabefd0bed3be",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718937207,
+        "stop" : 1621718937207,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "94cc71313e7c0db7",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718911884,
+        "stop" : 1621718911884,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "705146a20461078e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718720264,
+        "stop" : 1621718720264,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d119195fabadc480",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718674769,
+        "stop" : 1621718674769,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "39353f6c6d5e547d",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set records vinyl to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718600162,
+        "stop" : 1621718600162,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "34ea62a7665da88b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718517244,
+        "stop" : 1621718517244,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9ced87689c83efe",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718045039,
+        "stop" : 1621718045039,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4c9de26bae47749",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717965211,
+        "stop" : 1621717965211,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "df3903fbf0970b39",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717554065,
+        "stop" : 1621717554065,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "15213045a997d60f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717467315,
+        "stop" : 1621717467315,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bdc97f6d4cdc859d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717417133,
+        "stop" : 1621717417133,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6383c03b4d9ac84c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717319822,
+        "stop" : 1621717319822,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3da759653454dc51",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717279106,
+        "stop" : 1621717279107,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ccb41dfdb94de28",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717192538,
+        "stop" : 1621717192538,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "758b31a9335ee8b1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717100806,
+        "stop" : 1621717100807,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e36022555599872",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716715271,
+        "stop" : 1621716723778,
+        "duration" : 8507
+      }
+    }, {
+      "uid" : "f4ac4c79ae7abbda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716523344,
+        "stop" : 1621716531267,
+        "duration" : 7923
+      }
+    }, {
+      "uid" : "fe051cff365471cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716050632,
+        "stop" : 1621716059310,
+        "duration" : 8678
+      }
+    }, {
+      "uid" : "b0d3959ccb170967",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715639910,
+        "stop" : 1621715649184,
+        "duration" : 9274
+      }
+    }, {
+      "uid" : "1ffc8b08c6d54208",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715150436,
+        "stop" : 1621715165093,
+        "duration" : 14657
+      }
+    }, {
+      "uid" : "6c990a217023ea12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714909856,
+        "stop" : 1621714923639,
+        "duration" : 13783
+      }
+    }, {
+      "uid" : "24332c9586b48f03",
+      "status" : "broken",
+      "statusDetails" : "function has 3 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)",
+      "time" : {
+        "start" : 1621714834771,
+        "stop" : 1621714834772,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b560d6a9652698af",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set records vinyl to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714759076,
+        "stop" : 1621714759076,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "de9902a8144cc400",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set records vinyl to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714291117,
+        "stop" : 1621714291117,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d95133715d5b4760",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set records vinyl to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714254096,
+        "stop" : 1621714254096,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7b49be89d3e191b9",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set records vinyl to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714137185,
+        "stop" : 1621714137185,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eb3965c7cb5b9e91",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set records vinyl to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713939508,
+        "stop" : 1621713939508,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f795e97063706e60",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set records vinyl to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713257619,
+        "stop" : 1621713257619,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ab4c9dc180b29688",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set records vinyl to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713086797,
+        "stop" : 1621713086797,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2166e01129c8ae2d.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

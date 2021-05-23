@@ -1,0 +1,1354 @@
+{
+  "uid" : "b44b677fb636e4ac",
+  "name" : "Given I open the url \"www.bestbuy.com\"",
+  "fullName" : "Product Search: I should be able to search for a product.Given I open the url \"www.bestbuy.com\"",
+  "historyId" : "35048b155b8744bddf8c27cd3ccac43d",
+  "time" : {
+    "start" : 1621724563663,
+    "stop" : 1621724567003,
+    "duration" : 3340
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the url \"www.bestbuy.com\""
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fefa153f8a10fb7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621724551112,
+        "stop" : 1621724555316,
+        "duration" : 4204
+      }
+    }, {
+      "uid" : "af03ccd7ffd3ec2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621724538790,
+        "stop" : 1621724542188,
+        "duration" : 3398
+      }
+    }, {
+      "uid" : "2fa1c7d37b282c39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621724524897,
+        "stop" : 1621724529439,
+        "duration" : 4542
+      }
+    }, {
+      "uid" : "5f1c19c167b44500",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621724507283,
+        "stop" : 1621724514607,
+        "duration" : 7324
+      }
+    }, {
+      "uid" : "4c3d21465023ff01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721669841,
+        "stop" : 1621721673363,
+        "duration" : 3522
+      }
+    }, {
+      "uid" : "b13bea0937d7b1b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721656718,
+        "stop" : 1621721660786,
+        "duration" : 4068
+      }
+    }, {
+      "uid" : "43a2627dda115948",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721644001,
+        "stop" : 1621721647771,
+        "duration" : 3770
+      }
+    }, {
+      "uid" : "5adbe54d2868cbda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721630222,
+        "stop" : 1621721634619,
+        "duration" : 4397
+      }
+    }, {
+      "uid" : "c2ee1632bc763802",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721611715,
+        "stop" : 1621721620154,
+        "duration" : 8439
+      }
+    }, {
+      "uid" : "1e46bc89311e4522",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721280745,
+        "stop" : 1621721284571,
+        "duration" : 3826
+      }
+    }, {
+      "uid" : "744e0341c4d20d22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721267270,
+        "stop" : 1621721271492,
+        "duration" : 4222
+      }
+    }, {
+      "uid" : "f4079b660df20c1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721255006,
+        "stop" : 1621721259135,
+        "duration" : 4129
+      }
+    }, {
+      "uid" : "9801b529baa099d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721240852,
+        "stop" : 1621721245823,
+        "duration" : 4971
+      }
+    }, {
+      "uid" : "e3aea70dd6b5b269",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721221582,
+        "stop" : 1621721229961,
+        "duration" : 8379
+      }
+    }, {
+      "uid" : "299c5dbcb8ab3970",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621720721443,
+        "stop" : 1621720725609,
+        "duration" : 4166
+      }
+    }, {
+      "uid" : "86009ba8849c0975",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621720708410,
+        "stop" : 1621720711842,
+        "duration" : 3432
+      }
+    }, {
+      "uid" : "a42f1830481a4a52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621720694298,
+        "stop" : 1621720698395,
+        "duration" : 4097
+      }
+    }, {
+      "uid" : "558239746765636d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621720675979,
+        "stop" : 1621720680761,
+        "duration" : 4782
+      }
+    }, {
+      "uid" : "cb203828fe8d3294",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621720655741,
+        "stop" : 1621720664200,
+        "duration" : 8459
+      }
+    }, {
+      "uid" : "6cab24ebf432807c",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720632178,
+        "stop" : 1621720632179,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2b92420d6e33371b",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720632172,
+        "stop" : 1621720632173,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f1e629391ae59c1d",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720632166,
+        "stop" : 1621720632167,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2e55caa30b44df3",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720632160,
+        "stop" : 1621720632161,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "65ac4803f18ec377",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720632143,
+        "stop" : 1621720632149,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "b5f76e2cce905d4f",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720564372,
+        "stop" : 1621720564373,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f420a59fccedeb3",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720564366,
+        "stop" : 1621720564367,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f63fd593d3a4fe45",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720564360,
+        "stop" : 1621720564362,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "1351313f891efc28",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720564354,
+        "stop" : 1621720564355,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7250b7c9dbb8a995",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720564336,
+        "stop" : 1621720564344,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "fc81acd0683dfc2a",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720533808,
+        "stop" : 1621720533812,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "65a57ae46c3ac147",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720533802,
+        "stop" : 1621720533803,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "58c21d05a2e3ff1d",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720533795,
+        "stop" : 1621720533797,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "7ef7439b757fd34f",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720533789,
+        "stop" : 1621720533790,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8e26354beb591b0a",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720533770,
+        "stop" : 1621720533778,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "18c9e6d5c465da2d",
+      "status" : "broken",
+      "statusDetails" : "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)",
+      "time" : {
+        "start" : 1621720449646,
+        "stop" : 1621720449647,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "313f753269c078dc",
+      "status" : "broken",
+      "statusDetails" : "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)",
+      "time" : {
+        "start" : 1621720449641,
+        "stop" : 1621720449642,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6fe9d2e9e288bc51",
+      "status" : "broken",
+      "statusDetails" : "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)",
+      "time" : {
+        "start" : 1621720449636,
+        "stop" : 1621720449637,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "48d53490c3e62dab",
+      "status" : "broken",
+      "statusDetails" : "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)",
+      "time" : {
+        "start" : 1621720449631,
+        "stop" : 1621720449632,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d22764a9b84bd62c",
+      "status" : "broken",
+      "statusDetails" : "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)",
+      "time" : {
+        "start" : 1621720449620,
+        "stop" : 1621720449621,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2f6a1e21ae1214b3",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720370760,
+        "stop" : 1621720370762,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "5979b23e9a1aa778",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720370753,
+        "stop" : 1621720370754,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7920b448c375576e",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720370747,
+        "stop" : 1621720370749,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "d0556d7fb892cf01",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720370741,
+        "stop" : 1621720370742,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ba58162497969a1a",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720370723,
+        "stop" : 1621720370731,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "e52cbaafa8c7e664",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621720344364,
+        "stop" : 1621720344366,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "b8650483e829c630",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621720344355,
+        "stop" : 1621720344356,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "609bb31b49cd0995",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621720344349,
+        "stop" : 1621720344350,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2beac47405b87fc9",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621720344341,
+        "stop" : 1621720344342,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b12621eb2fa66cb9",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621720344321,
+        "stop" : 1621720344324,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "8b4a4372303114f9",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720288040,
+        "stop" : 1621720288043,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "fb20ecd1598beed3",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720288032,
+        "stop" : 1621720288033,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "869f1b1f86e87575",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720288026,
+        "stop" : 1621720288028,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "d44b5d6f429b2a7a",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720288020,
+        "stop" : 1621720288021,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9aea67d03caf78cf",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621720288002,
+        "stop" : 1621720288010,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "1a8c4f79619f16b8",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720269879,
+        "stop" : 1621720269880,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e4465b9a4e601df1",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720269874,
+        "stop" : 1621720269875,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "777e8fb4c435b97b",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720269868,
+        "stop" : 1621720269870,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "c091a5ac52540a15",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720269863,
+        "stop" : 1621720269864,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "eb138151631252b1",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720269846,
+        "stop" : 1621720269852,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "85c6999531f98082",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621720232492,
+        "stop" : 1621720232499,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "d39d375bdc2b959a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621720230699,
+        "stop" : 1621720232479,
+        "duration" : 1780
+      }
+    }, {
+      "uid" : "7302fd8e294cb4cb",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621720228385,
+        "stop" : 1621720230693,
+        "duration" : 2308
+      }
+    }, {
+      "uid" : "afc8db3d380cfea",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621720227405,
+        "stop" : 1621720228378,
+        "duration" : 973
+      }
+    }, {
+      "uid" : "aaae04e5f816ef74",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621720224789,
+        "stop" : 1621720227391,
+        "duration" : 2602
+      }
+    }, {
+      "uid" : "22e26074cecb8027",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720170559,
+        "stop" : 1621720170560,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3409849ec412f11f",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720170548,
+        "stop" : 1621720170549,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "84a02e4cb767f3f6",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720170541,
+        "stop" : 1621720170542,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "394dd1574f49183e",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720170535,
+        "stop" : 1621720170536,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "79e76c6a1bea1fa3",
+      "status" : "broken",
+      "statusDetails" : "Parameter for \"url\" command needs to be type of string",
+      "time" : {
+        "start" : 1621720170517,
+        "stop" : 1621720170523,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "d12289c9f4e6b58a",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621719682559,
+        "stop" : 1621719682561,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "65475b589c129a0f",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621719682551,
+        "stop" : 1621719682552,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "5e5527d785d456c1",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621719682545,
+        "stop" : 1621719682546,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e32606943d869cdb",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621719682539,
+        "stop" : 1621719682540,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "32639801bf7512ae",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621719682520,
+        "stop" : 1621719682523,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "5040f809673b84d8",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621719660772,
+        "stop" : 1621719660774,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "f853813f7299dfdf",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621719660765,
+        "stop" : 1621719660767,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "184f0b73f363e691",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621719660759,
+        "stop" : 1621719660760,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "799e26699c986da5",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621719660752,
+        "stop" : 1621719660753,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d807cff3b5e51672",
+      "status" : "broken",
+      "statusDetails" : "Invalid URL: /",
+      "time" : {
+        "start" : 1621719660732,
+        "stop" : 1621719660740,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "8a38a2239a42a3b1",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621719615384,
+        "stop" : 1621719615753,
+        "duration" : 369
+      }
+    }, {
+      "uid" : "6daf80dc7bf06ac0",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621719615021,
+        "stop" : 1621719615379,
+        "duration" : 358
+      }
+    }, {
+      "uid" : "daab6e2472bc3d66",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621719614634,
+        "stop" : 1621719615016,
+        "duration" : 382
+      }
+    }, {
+      "uid" : "e6ae24e4ce3a0346",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621719614270,
+        "stop" : 1621719614627,
+        "duration" : 357
+      }
+    }, {
+      "uid" : "77f500e8ce181128",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621719613733,
+        "stop" : 1621719614257,
+        "duration" : 524
+      }
+    }, {
+      "uid" : "95708aa495237af5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716736863,
+        "stop" : 1621716740984,
+        "duration" : 4121
+      }
+    }, {
+      "uid" : "695191c9a737e3ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716724133,
+        "stop" : 1621716728490,
+        "duration" : 4357
+      }
+    }, {
+      "uid" : "b769e6319b5c322d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716711445,
+        "stop" : 1621716715271,
+        "duration" : 3826
+      }
+    }, {
+      "uid" : "987f7032490cc896",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716697052,
+        "stop" : 1621716701692,
+        "duration" : 4640
+      }
+    }, {
+      "uid" : "f0ca4ec736609108",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716677955,
+        "stop" : 1621716687493,
+        "duration" : 9538
+      }
+    }, {
+      "uid" : "7c34de1da7e7746",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716544276,
+        "stop" : 1621716548626,
+        "duration" : 4350
+      }
+    }, {
+      "uid" : "5579378cb695499f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716531416,
+        "stop" : 1621716535825,
+        "duration" : 4409
+      }
+    }, {
+      "uid" : "8bb3434cf61fe594",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716519567,
+        "stop" : 1621716523344,
+        "duration" : 3777
+      }
+    }, {
+      "uid" : "90a3631763be9058",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716504800,
+        "stop" : 1621716510146,
+        "duration" : 5346
+      }
+    }, {
+      "uid" : "b6d344b6e7751a69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716484980,
+        "stop" : 1621716495261,
+        "duration" : 10281
+      }
+    }, {
+      "uid" : "6d0188262988fcf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716072039,
+        "stop" : 1621716075804,
+        "duration" : 3765
+      }
+    }, {
+      "uid" : "83a9f6f32dca9b81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716059516,
+        "stop" : 1621716063733,
+        "duration" : 4217
+      }
+    }, {
+      "uid" : "79f24c0901b9be6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716047040,
+        "stop" : 1621716050631,
+        "duration" : 3591
+      }
+    }, {
+      "uid" : "64573402a10f5454",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716027774,
+        "stop" : 1621716032327,
+        "duration" : 4553
+      }
+    }, {
+      "uid" : "a6befb9253742052",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715991692,
+        "stop" : 1621716006480,
+        "duration" : 14788
+      }
+    }, {
+      "uid" : "ac9b2e754a3e3988",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715663211,
+        "stop" : 1621715666884,
+        "duration" : 3673
+      }
+    }, {
+      "uid" : "c236faf3c0f5e99a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715649375,
+        "stop" : 1621715653698,
+        "duration" : 4323
+      }
+    }, {
+      "uid" : "d02449c42921dae7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715636261,
+        "stop" : 1621715639910,
+        "duration" : 3649
+      }
+    }, {
+      "uid" : "9b82ad5b5fe5b8f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715617197,
+        "stop" : 1621715621704,
+        "duration" : 4507
+      }
+    }, {
+      "uid" : "f73d8bb8373d3c24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715598158,
+        "stop" : 1621715606237,
+        "duration" : 8079
+      }
+    }, {
+      "uid" : "deafbf3a9c0523df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715183445,
+        "stop" : 1621715188365,
+        "duration" : 4920
+      }
+    }, {
+      "uid" : "f8a4163bc035b3ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715165103,
+        "stop" : 1621715169046,
+        "duration" : 3943
+      }
+    }, {
+      "uid" : "42dbc723e6bc87ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715146235,
+        "stop" : 1621715150436,
+        "duration" : 4201
+      }
+    }, {
+      "uid" : "a11f32978c48941b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715133067,
+        "stop" : 1621715138574,
+        "duration" : 5507
+      }
+    }, {
+      "uid" : "eb1eb05d879ff0b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715111243,
+        "stop" : 1621715120840,
+        "duration" : 9597
+      }
+    }, {
+      "uid" : "4d42b7586e4f41d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714938458,
+        "stop" : 1621714942965,
+        "duration" : 4507
+      }
+    }, {
+      "uid" : "f6b162c11ff8289c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714923644,
+        "stop" : 1621714927228,
+        "duration" : 3584
+      }
+    }, {
+      "uid" : "767cea9eb990789d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714904708,
+        "stop" : 1621714909856,
+        "duration" : 5148
+      }
+    }, {
+      "uid" : "2b0293e308feefa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714892062,
+        "stop" : 1621714896660,
+        "duration" : 4598
+      }
+    }, {
+      "uid" : "26b8dc6de764efbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714869265,
+        "stop" : 1621714878359,
+        "duration" : 9094
+      }
+    }, {
+      "uid" : "7698a6a606b059eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714838603,
+        "stop" : 1621714842541,
+        "duration" : 3938
+      }
+    }, {
+      "uid" : "455dde006110fab8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714834779,
+        "stop" : 1621714838597,
+        "duration" : 3818
+      }
+    }, {
+      "uid" : "d2dbbe596c6cce18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714830877,
+        "stop" : 1621714834771,
+        "duration" : 3894
+      }
+    }, {
+      "uid" : "12ab535f1a716f28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714827280,
+        "stop" : 1621714830867,
+        "duration" : 3587
+      }
+    }, {
+      "uid" : "96fe3b753ad03ef4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714819880,
+        "stop" : 1621714827266,
+        "duration" : 7386
+      }
+    }, {
+      "uid" : "db62cd4fda42652d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714762520,
+        "stop" : 1621714766193,
+        "duration" : 3673
+      }
+    }, {
+      "uid" : "d1309ee43cbd791c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714759083,
+        "stop" : 1621714762515,
+        "duration" : 3432
+      }
+    }, {
+      "uid" : "8ae131f75fc420a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714754877,
+        "stop" : 1621714759075,
+        "duration" : 4198
+      }
+    }, {
+      "uid" : "d965a7da3a3d4329",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714750709,
+        "stop" : 1621714754861,
+        "duration" : 4152
+      }
+    }, {
+      "uid" : "dff9cbb68f58a6d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714740644,
+        "stop" : 1621714750694,
+        "duration" : 10050
+      }
+    }, {
+      "uid" : "a7d3f44af137c8a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714295244,
+        "stop" : 1621714298725,
+        "duration" : 3481
+      }
+    }, {
+      "uid" : "42fa9e3dd4240f9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714291125,
+        "stop" : 1621714295238,
+        "duration" : 4113
+      }
+    }, {
+      "uid" : "bcc9686f06f2f09c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714287125,
+        "stop" : 1621714291117,
+        "duration" : 3992
+      }
+    }, {
+      "uid" : "a5032f14d80872ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714282409,
+        "stop" : 1621714287117,
+        "duration" : 4708
+      }
+    }, {
+      "uid" : "5f6383b40ee2a203",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714273430,
+        "stop" : 1621714282397,
+        "duration" : 8967
+      }
+    }, {
+      "uid" : "c83ee5649a74d347",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714257544,
+        "stop" : 1621714261410,
+        "duration" : 3866
+      }
+    }, {
+      "uid" : "f06ba2c48a2d99ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714254102,
+        "stop" : 1621714257539,
+        "duration" : 3437
+      }
+    }, {
+      "uid" : "54dc8f4d065074d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714250384,
+        "stop" : 1621714254096,
+        "duration" : 3712
+      }
+    }, {
+      "uid" : "72a02d474a4b2b9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714246421,
+        "stop" : 1621714250375,
+        "duration" : 3954
+      }
+    }, {
+      "uid" : "3ec3ba20850605e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714237891,
+        "stop" : 1621714246406,
+        "duration" : 8515
+      }
+    }, {
+      "uid" : "9efb2c226ce58796",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714140742,
+        "stop" : 1621714145074,
+        "duration" : 4332
+      }
+    }, {
+      "uid" : "45c72d04d22f50f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714137191,
+        "stop" : 1621714140735,
+        "duration" : 3544
+      }
+    }, {
+      "uid" : "f8705214f9574eec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714133757,
+        "stop" : 1621714137185,
+        "duration" : 3428
+      }
+    }, {
+      "uid" : "70b7178af86c41cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714130155,
+        "stop" : 1621714133749,
+        "duration" : 3594
+      }
+    }, {
+      "uid" : "88c1e0929eb6916f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714122590,
+        "stop" : 1621714130142,
+        "duration" : 7552
+      }
+    }, {
+      "uid" : "dab60d104b1cd2bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621713943099,
+        "stop" : 1621713946561,
+        "duration" : 3462
+      }
+    }, {
+      "uid" : "b4a75a5b84de53d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621713939514,
+        "stop" : 1621713943092,
+        "duration" : 3578
+      }
+    }, {
+      "uid" : "ef4387ca04f55290",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621713935894,
+        "stop" : 1621713939508,
+        "duration" : 3614
+      }
+    }, {
+      "uid" : "d1ab98fb89e6c05e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621713931636,
+        "stop" : 1621713935883,
+        "duration" : 4247
+      }
+    }, {
+      "uid" : "bae351c2e74718f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621713923299,
+        "stop" : 1621713931622,
+        "duration" : 8323
+      }
+    }, {
+      "uid" : "9a6c06535d37c380",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621713261556,
+        "stop" : 1621713265247,
+        "duration" : 3691
+      }
+    }, {
+      "uid" : "9cf8f3df961e483a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621713257625,
+        "stop" : 1621713261550,
+        "duration" : 3925
+      }
+    }, {
+      "uid" : "735409f145dcd711",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621713253972,
+        "stop" : 1621713257619,
+        "duration" : 3647
+      }
+    }, {
+      "uid" : "a7beb119c53a3fef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621713249954,
+        "stop" : 1621713253959,
+        "duration" : 4005
+      }
+    }, {
+      "uid" : "3e30868ecb54b703",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621713240974,
+        "stop" : 1621713249941,
+        "duration" : 8967
+      }
+    }, {
+      "uid" : "a23a11eb9c3a9b22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621713091569,
+        "stop" : 1621713095136,
+        "duration" : 3567
+      }
+    }, {
+      "uid" : "6ed173041bcfe601",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621713086804,
+        "stop" : 1621713091562,
+        "duration" : 4758
+      }
+    }, {
+      "uid" : "80d407a7c86ce41b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621713082456,
+        "stop" : 1621713086797,
+        "duration" : 4341
+      }
+    }, {
+      "uid" : "497e568ab12e2274",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621713078395,
+        "stop" : 1621713082447,
+        "duration" : 4052
+      }
+    }, {
+      "uid" : "6182a789e7bcf5ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621713070171,
+        "stop" : 1621713078382,
+        "duration" : 8211
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b44b677fb636e4ac.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

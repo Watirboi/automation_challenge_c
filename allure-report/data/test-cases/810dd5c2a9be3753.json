@@ -1,0 +1,56 @@
+{
+  "uid" : "810dd5c2a9be3753",
+  "name" : "Then I expect that the h1 header contains the text records vinyl",
+  "fullName" : "Product Search: I should be able to search for a product.Then I expect that the h1 header contains the text records vinyl",
+  "historyId" : "4cd45d650dbf26dd065dd80690f7bb52",
+  "time" : {
+    "start" : 1621718911885,
+    "stop" : 1621718911885,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect that the h1 header contains the text records vinyl"
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "810dd5c2a9be3753.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

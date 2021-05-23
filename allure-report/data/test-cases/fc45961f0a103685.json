@@ -1,0 +1,136 @@
+{
+  "uid" : "fc45961f0a103685",
+  "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums",
+  "fullName" : "Product Search: I should be able to search for a product.Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums",
+  "historyId" : "96182e06963c404c89b5f58efe7844d",
+  "time" : {
+    "start" : 1621714892051,
+    "stop" : 1621714892052,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "undefined:undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums"
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bb831375aa74dc3f",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714827267,
+        "stop" : 1621714827268,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7727b7d45924949f",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714750696,
+        "stop" : 1621714750696,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b03203cf96333d0a",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714282398,
+        "stop" : 1621714282398,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2f8769d4a47bcc8",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714246407,
+        "stop" : 1621714246408,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "206302d5f224f816",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714130143,
+        "stop" : 1621714130143,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6b798e573cc0e45",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713931623,
+        "stop" : 1621713931623,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ec6e9ac4b334e2b1",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713249942,
+        "stop" : 1621713249943,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8570c33ee1de0990",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713078383,
+        "stop" : 1621713078384,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fc45961f0a103685.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

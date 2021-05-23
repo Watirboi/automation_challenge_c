@@ -1,0 +1,136 @@
+{
+  "uid" : "1e9195eaf22e935f",
+  "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive",
+  "fullName" : "Product Search: I should be able to search for a product.Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive",
+  "historyId" : "249ca44bf85474e58826a87a0755779b",
+  "time" : {
+    "start" : 1621714938451,
+    "stop" : 1621714938451,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "undefined:undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive"
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1b81edc9a9863a8e",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714838598,
+        "stop" : 1621714838598,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f5093410a0df6714",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714762516,
+        "stop" : 1621714762516,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f21b3fde185d7f02",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714295239,
+        "stop" : 1621714295239,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d4af391fd2f77b5b",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714257539,
+        "stop" : 1621714257539,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "709dce677082ef90",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714140735,
+        "stop" : 1621714140735,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "524099181b1d38c5",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713943094,
+        "stop" : 1621713943094,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "70dc1dab71c94153",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713261550,
+        "stop" : 1621713261550,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a14e3fe28090279e",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713091563,
+        "stop" : 1621713091563,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1e9195eaf22e935f.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

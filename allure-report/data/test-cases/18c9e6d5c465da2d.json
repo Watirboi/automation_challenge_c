@@ -1,0 +1,58 @@
+{
+  "uid" : "18c9e6d5c465da2d",
+  "name" : "Given I open the url \"www.bestbuy.com\"",
+  "fullName" : "Product Search: I should be able to search for a product.Given I open the url \"www.bestbuy.com\"",
+  "historyId" : "35048b155b8744bddf8c27cd3ccac43d",
+  "time" : {
+    "start" : 1621720449646,
+    "stop" : 1621720449647,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)",
+  "statusTrace" : "",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the url \"www.bestbuy.com\""
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18c9e6d5c465da2d.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

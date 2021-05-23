@@ -1,0 +1,484 @@
+{
+  "uid" : "5421babcd62277c2",
+  "name" : "When I set tablets to the BestBuy search field",
+  "fullName" : "Product Search: I should be able to search for a product.When I set tablets to the BestBuy search field",
+  "historyId" : "6e7f2f6dc42d22d5ae4063cbd0c1b0d1",
+  "time" : {
+    "start" : 1621724529439,
+    "stop" : 1621724533732,
+    "duration" : 4293
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I set tablets to the BestBuy search field"
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b28bb652491a9398",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721634620,
+        "stop" : 1621721638935,
+        "duration" : 4315
+      }
+    }, {
+      "uid" : "16f6bf81a5da28eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621721245823,
+        "stop" : 1621721249926,
+        "duration" : 4103
+      }
+    }, {
+      "uid" : "82257199f002ee41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621720680762,
+        "stop" : 1621720689252,
+        "duration" : 8490
+      }
+    }, {
+      "uid" : "5fbd7714e0658611",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720632161,
+        "stop" : 1621720632162,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cd33d8710574e8a4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720564356,
+        "stop" : 1621720564356,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9c38b38fa0a8f4c3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720533790,
+        "stop" : 1621720533790,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b81c6548f5d9a5f1",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720449632,
+        "stop" : 1621720449632,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "35683ee71d48671b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720370742,
+        "stop" : 1621720370743,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "95b75600ca1f1a58",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720344343,
+        "stop" : 1621720344343,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2857387dd58c8331",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720288021,
+        "stop" : 1621720288022,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "bfa96f64417df5c9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720269864,
+        "stop" : 1621720269864,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "74b6ba38502c488d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720228379,
+        "stop" : 1621720228379,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bef3c1201de3b3ae",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720170536,
+        "stop" : 1621720170536,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "11960c26eb6c9786",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720155125,
+        "stop" : 1621720155125,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9cf8623310b73f7c",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720121173,
+        "stop" : 1621720121173,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e31c5afaf32b8a21",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621720093664,
+        "stop" : 1621720093664,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "46149629fd613acb",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719817446,
+        "stop" : 1621719817446,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "778ac7fc9d8b996b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719682541,
+        "stop" : 1621719682541,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e20c4131ae02f929",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719660753,
+        "stop" : 1621719660753,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "34b46901766ef65e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719614628,
+        "stop" : 1621719614628,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2a67992b2ca28573",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621719557388,
+        "stop" : 1621719557388,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "db915c6085f8e127",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621719460891,
+        "stop" : 1621719465305,
+        "duration" : 4414
+      }
+    }, {
+      "uid" : "65e3e7554e251f21",
+      "status" : "broken",
+      "statusDetails" : "element (\"#gh-search-input\") still not displayed after 5000ms",
+      "time" : {
+        "start" : 1621719281640,
+        "stop" : 1621719287145,
+        "duration" : 5505
+      }
+    }, {
+      "uid" : "9e6fb693533572b7",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718936838,
+        "stop" : 1621718936838,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b48fb5132789bd7a",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718911515,
+        "stop" : 1621718911516,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4966539922b9defd",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718720259,
+        "stop" : 1621718720259,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a8c81c444a1ef3b",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718674763,
+        "stop" : 1621718674763,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "94974f6d8767dbd0",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set tablets to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718600153,
+        "stop" : 1621718600154,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "56ee8f4fba04a862",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718517239,
+        "stop" : 1621718517239,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "aca9b9f94d970407",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621718045033,
+        "stop" : 1621718045034,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6d417685d6ad09e5",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717965205,
+        "stop" : 1621717965206,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d6910ddbaf8333d3",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717554060,
+        "stop" : 1621717554060,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8eaed7fda2478a41",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717467309,
+        "stop" : 1621717467310,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c20c2fa806ed17b4",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717417125,
+        "stop" : 1621717417125,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bd75b784f666daea",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717319454,
+        "stop" : 1621717319454,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8202c39dc9fd4127",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717279091,
+        "stop" : 1621717279091,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "75a32a603d297e3d",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717192530,
+        "stop" : 1621717192530,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3b3e62e8662b3bc0",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621717100798,
+        "stop" : 1621717100798,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ac0b400aa382cc27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716701692,
+        "stop" : 1621716706409,
+        "duration" : 4717
+      }
+    }, {
+      "uid" : "a569ef052984c4e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716510147,
+        "stop" : 1621716514507,
+        "duration" : 4360
+      }
+    }, {
+      "uid" : "f849f3afe9c70dea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621716032327,
+        "stop" : 1621716036939,
+        "duration" : 4612
+      }
+    }, {
+      "uid" : "2e84b43f6e746cdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715621704,
+        "stop" : 1621715626197,
+        "duration" : 4493
+      }
+    }, {
+      "uid" : "7f78011920cb230e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621715138575,
+        "stop" : 1621715146228,
+        "duration" : 7653
+      }
+    }, {
+      "uid" : "deabfa27d406c4ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621714896660,
+        "stop" : 1621714904702,
+        "duration" : 8042
+      }
+    }, {
+      "uid" : "23be12ef8a8ac193",
+      "status" : "broken",
+      "statusDetails" : "function has 3 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)",
+      "time" : {
+        "start" : 1621714830867,
+        "stop" : 1621714830868,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8615f7b7fc0c0c3c",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set tablets to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714754863,
+        "stop" : 1621714754864,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3f0a107851d6f9f4",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set tablets to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714287117,
+        "stop" : 1621714287117,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "23f0340732c9b9fd",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set tablets to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714250375,
+        "stop" : 1621714250375,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "284cdf4319b36e29",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set tablets to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714133750,
+        "stop" : 1621714133750,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "898fba53a0627bc2",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set tablets to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713935883,
+        "stop" : 1621713935884,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e6e997c372ea2a65",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set tablets to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713253959,
+        "stop" : 1621713253959,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "73595db0a40011f2",
+      "status" : "broken",
+      "statusDetails" : "Step \"When I set tablets to the BestBuy search field\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713082449,
+        "stop" : 1621713082449,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5421babcd62277c2.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

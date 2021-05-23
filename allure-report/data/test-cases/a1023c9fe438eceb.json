@@ -1,0 +1,810 @@
+{
+  "uid" : "a1023c9fe438eceb",
+  "name" : "Given I open the url <url>",
+  "fullName" : "Product Search: I should be able to search for a product.Given I open the url <url>",
+  "historyId" : "999d89d019185017cb5587deb263393d",
+  "time" : {
+    "start" : 1621720155141,
+    "stop" : 1621720155141,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "undefined:undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the url <url>"
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a42d78a0e54edc65",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621720155136,
+        "stop" : 1621720155136,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f566d9eb41d58ada",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621720155131,
+        "stop" : 1621720155131,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a373e9a91ace3db2",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621720155124,
+        "stop" : 1621720155125,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "23e0dd0aaff30007",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621720155111,
+        "stop" : 1621720155112,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9ac22c1a5033e97c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621719500914,
+        "stop" : 1621719504275,
+        "duration" : 3361
+      }
+    }, {
+      "uid" : "8e9168635cb5b75a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621719483157,
+        "stop" : 1621719486763,
+        "duration" : 3606
+      }
+    }, {
+      "uid" : "9fc24f5da10708bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621719470351,
+        "stop" : 1621719474022,
+        "duration" : 3671
+      }
+    }, {
+      "uid" : "cbe4cf07ad74c7ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621719457059,
+        "stop" : 1621719460891,
+        "duration" : 3832
+      }
+    }, {
+      "uid" : "71f967c980e3a51a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621719437499,
+        "stop" : 1621719446132,
+        "duration" : 8633
+      }
+    }, {
+      "uid" : "5883da9cfab562a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621719297202,
+        "stop" : 1621719297202,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fefd271eaf2ba94f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621719292177,
+        "stop" : 1621719292178,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f14a6f32ba533053",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621719287155,
+        "stop" : 1621719287155,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e2db5aa4c4eb32b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621719281639,
+        "stop" : 1621719281640,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c8dc5fef95987d9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621719276594,
+        "stop" : 1621719276596,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "a8321505ead092d4",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621718937586,
+        "stop" : 1621718937959,
+        "duration" : 373
+      }
+    }, {
+      "uid" : "3ddbc20fe8ad98eb",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621718937213,
+        "stop" : 1621718937580,
+        "duration" : 367
+      }
+    }, {
+      "uid" : "2707e400bc00f03d",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621718936845,
+        "stop" : 1621718937207,
+        "duration" : 362
+      }
+    }, {
+      "uid" : "d3e0379474ba3fb1",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621718936044,
+        "stop" : 1621718936837,
+        "duration" : 793
+      }
+    }, {
+      "uid" : "3eec00b8896c923d",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621718935492,
+        "stop" : 1621718936032,
+        "duration" : 540
+      }
+    }, {
+      "uid" : "8a0257cf97e0ec33",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718720274,
+        "stop" : 1621718720276,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "8e6415aff1eb3f50",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718720269,
+        "stop" : 1621718720269,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "242669e0991a69f4",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718720264,
+        "stop" : 1621718720264,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "adc7b0e11a0d4702",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718720259,
+        "stop" : 1621718720259,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "659185cd322a1437",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718720248,
+        "stop" : 1621718720249,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8c2afa91acff67f",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718674777,
+        "stop" : 1621718674778,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7c7290246eb904f8",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718674773,
+        "stop" : 1621718674773,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fe0d8e4ea49f5726",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718674768,
+        "stop" : 1621718674768,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eaf9d60bb1666219",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718674763,
+        "stop" : 1621718674763,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "383f132ac0f848bb",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718674751,
+        "stop" : 1621718674752,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3f6a7368313a03f",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718600175,
+        "stop" : 1621718600175,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4b9b9857970cda8f",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718600167,
+        "stop" : 1621718600167,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7847c3e7ddcf0c27",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718600161,
+        "stop" : 1621718600162,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "6bd8e6fbc43e7434",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718600153,
+        "stop" : 1621718600153,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3aef8606ff5fbcb",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718600142,
+        "stop" : 1621718600142,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2de93ab2b46451",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718517254,
+        "stop" : 1621718517254,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b7c0a3f58baf2401",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718517249,
+        "stop" : 1621718517249,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "612f62ff24dda929",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718517244,
+        "stop" : 1621718517244,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "25d6678bd7933e43",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718517239,
+        "stop" : 1621718517239,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "54a759d3d96b342f",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718517227,
+        "stop" : 1621718517227,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "387847ce9f93e47f",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718045048,
+        "stop" : 1621718045048,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d1e7fdd40ae1d8b5",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718045043,
+        "stop" : 1621718045044,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b791ec0ab88df4dd",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718045039,
+        "stop" : 1621718045039,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4949a1ccfe54fa53",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718045033,
+        "stop" : 1621718045033,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f5554f448b97ccea",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621718045022,
+        "stop" : 1621718045022,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2b60605dc19e6e2",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717965221,
+        "stop" : 1621717965221,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6272c4cbcc9e2030",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717965216,
+        "stop" : 1621717965216,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4833de2fc23ebb12",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717965210,
+        "stop" : 1621717965211,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cd5674b4a2db55a0",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717965205,
+        "stop" : 1621717965205,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8c5b3e7fc03189d2",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717965192,
+        "stop" : 1621717965193,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1e768eac798806f5",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717554074,
+        "stop" : 1621717554075,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "742de484d1f2597",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717554070,
+        "stop" : 1621717554070,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "de76b13b20b3b64e",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717554065,
+        "stop" : 1621717554065,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f04b35a0e528b98a",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717554059,
+        "stop" : 1621717554060,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "fc38cc8cc03760a3",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717554048,
+        "stop" : 1621717554049,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "66abc00ee6bcc641",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717467324,
+        "stop" : 1621717467324,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b4a04f1b2a3955c1",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717467320,
+        "stop" : 1621717467320,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "44fa44ddc8acb54b",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717467315,
+        "stop" : 1621717467315,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6f7b440c29959eec",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717467309,
+        "stop" : 1621717467309,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "517bb6beba895189",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717467298,
+        "stop" : 1621717467299,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "9894428a3279302e",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717417143,
+        "stop" : 1621717417143,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "13ede9f06dde28f6",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717417138,
+        "stop" : 1621717417138,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3b99b9e12c2ea68b",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717417133,
+        "stop" : 1621717417133,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1caf8094bce8381b",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717417125,
+        "stop" : 1621717417125,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8248c2a45fc158ca",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717417114,
+        "stop" : 1621717417115,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "7ee2b4b22ff0987a",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621717320220,
+        "stop" : 1621717320656,
+        "duration" : 436
+      }
+    }, {
+      "uid" : "9cc1dbad976d83dc",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621717319827,
+        "stop" : 1621717320214,
+        "duration" : 387
+      }
+    }, {
+      "uid" : "d99636130e62edc8",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621717319460,
+        "stop" : 1621717319822,
+        "duration" : 362
+      }
+    }, {
+      "uid" : "87c41cb4baf9bb51",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621717319047,
+        "stop" : 1621717319453,
+        "duration" : 406
+      }
+    }, {
+      "uid" : "695cf014cd6a7504",
+      "status" : "broken",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621717318504,
+        "stop" : 1621717319035,
+        "duration" : 531
+      }
+    }, {
+      "uid" : "57484c55a8307b0e",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621717279122,
+        "stop" : 1621717279123,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2e19abb91f17be77",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621717279112,
+        "stop" : 1621717279113,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a6d1e85acb1671a0",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621717279100,
+        "stop" : 1621717279102,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "ce8a2fff5d7b6797",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621717279080,
+        "stop" : 1621717279082,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "609cc1319136f260",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621717279055,
+        "stop" : 1621717279058,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "39a61845165656b8",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621717192549,
+        "stop" : 1621717192550,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "173bb975be81c052",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621717192542,
+        "stop" : 1621717192543,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d1b330a46a1eb438",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621717192535,
+        "stop" : 1621717192536,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "53d5fa58f53c248f",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621717192528,
+        "stop" : 1621717192529,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b1ed2463363867e8",
+      "status" : "broken",
+      "statusDetails" : "function uses multiple asynchronous interfaces: callback and promise\n                to use the callback interface: do not return a promise\n                to use the promise interface: remove the last argument to the function",
+      "time" : {
+        "start" : 1621717192506,
+        "stop" : 1621717192509,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "5077ede6a459c88",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717100818,
+        "stop" : 1621717100818,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c8329b58f83d75db",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717100811,
+        "stop" : 1621717100813,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "8d12e0b653e09249",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717100806,
+        "stop" : 1621717100806,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c83d41bda9fad1d3",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717100798,
+        "stop" : 1621717100798,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cefa48db0d8d7f0b",
+      "status" : "broken",
+      "statusDetails" : "Step \"Given I open the url <url>\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621717100785,
+        "stop" : 1621717100786,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a1023c9fe438eceb.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

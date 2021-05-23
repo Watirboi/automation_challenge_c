@@ -1,0 +1,136 @@
+{
+  "uid" : "fd98787952e643cc",
+  "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl",
+  "fullName" : "Product Search: I should be able to search for a product.Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl",
+  "historyId" : "acf09dfebbbefb8a75563c0dc7032bf8",
+  "time" : {
+    "start" : 1621714923639,
+    "stop" : 1621714923639,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "undefined:undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl"
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1cbea0de0dcdbe33",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714834772,
+        "stop" : 1621714834772,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9b8c67312df6eae7",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714759077,
+        "stop" : 1621714759077,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3ef3441a1847831c",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714291117,
+        "stop" : 1621714291118,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "cfd7cdf2f56f2c6f",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714254097,
+        "stop" : 1621714254097,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ebcda8dbc5b65145",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621714137186,
+        "stop" : 1621714137186,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "145f1ceb9e615bc1",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713939508,
+        "stop" : 1621713939508,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5f5e30564e278642",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713257619,
+        "stop" : 1621713257620,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a64bea919ef30656",
+      "status" : "failed",
+      "statusDetails" : "Step \"Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1621713086797,
+        "stop" : 1621713086798,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fd98787952e643cc.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

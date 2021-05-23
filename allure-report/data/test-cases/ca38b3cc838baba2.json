@@ -1,0 +1,58 @@
+{
+  "uid" : "ca38b3cc838baba2",
+  "name" : "Given I open the url \"https://www.bestbuy.com\"",
+  "fullName" : "Product Search: I should be able to search for a product.Given I open the url \"https://www.bestbuy.com\"",
+  "historyId" : "9b97c2cb059c858bc92b3fc9d1d56a4c",
+  "time" : {
+    "start" : 1621719557775,
+    "stop" : 1621719558154,
+    "duration" : 379
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+  "statusTrace" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)\n                    at endReadableNT (internal/streams/readable.js:1327:12)\n                    at processTicksAndRejections (internal/process/task_queues.js:80:21)\n                    at LandingPage.open (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/pageobjects/page.js:11:17)\n                    at LandingPage.open (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/pageobjects/landing.page.js:22:15)\n                    at World.<anonymous> (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/step-definitions/steps.js:6:17)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the url \"https://www.bestbuy.com\""
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca38b3cc838baba2.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

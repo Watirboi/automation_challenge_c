@@ -1,0 +1,56 @@
+{
+  "uid" : "ff240603a45d3544",
+  "name" : "Then I expect that the h1 header contains the text vacuums",
+  "fullName" : "Product Search: I should be able to search for a product.Then I expect that the h1 header contains the text vacuums",
+  "historyId" : "2851e7bd444b2d4c9e11a0f0f45ef9c9",
+  "time" : {
+    "start" : 1621721630066,
+    "stop" : 1621721630202,
+    "duration" : 136
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect that the h1 header contains the text vacuums"
+  }, {
+    "name" : "package",
+    "value" : "Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff240603a45d3544.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}
