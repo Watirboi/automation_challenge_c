@@ -1,282 +1,325 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
-    "name" : "Product Search: I should be able to search for a product",
+    "name" : "Best Buy Product Search: I should be able to search for a product",
     "children" : [ {
-      "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums",
-      "uid" : "fc45961f0a103685",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "failed",
+      "name" : "When I enter television in the BestBuy search field",
+      "uid" : "845acf7894471584",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
       "time" : {
-        "start" : 1621714892051,
-        "stop" : 1621714892052,
+        "start" : 1621872414805,
+        "stop" : 1621872414805,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Then I expect that see all the television that meet my search requirement",
+      "uid" : "7023b50da47ccd23",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621872414806,
+        "stop" : 1621872414806,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Then I should be able to apply 3 filters to limit the New Birthday Top-Rated products displayed",
+      "uid" : "cd9dd8a1278ddf41",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621872414806,
+        "stop" : 1621872414806,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "When I click on a television matching sku: 6395127",
+      "uid" : "e88cdd5209f6ffa6",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621872414806,
+        "stop" : 1621872414806,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "And I should see the product specification displayed for the television",
+      "uid" : "f6dbd827afcf14b2",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621872414807,
+        "stop" : 1621872414807,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Then I should see the average ratings displayed for the television",
+      "uid" : "f32e3f6e56438095",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621872414807,
+        "stop" : 1621872414807,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "When I enter refrigerator in the BestBuy search field",
+      "uid" : "f7a81dacafb352ee",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621872414819,
+        "stop" : 1621872414820,
         "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-90.0.4430.212" ]
     }, {
-      "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text tablets",
-      "uid" : "ce89cbe0744430d7",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "failed",
+      "name" : "When I click on a refrigerator matching sku: 5580245",
+      "uid" : "71582d961e8f3c2",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
       "time" : {
-        "start" : 1621714904702,
-        "stop" : 1621714904703,
+        "start" : 1621872414820,
+        "stop" : 1621872414821,
         "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-90.0.4430.212" ]
     }, {
-      "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl",
-      "uid" : "fd98787952e643cc",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "failed",
+      "name" : "Then I should be able to apply 3 filters to limit the Brand-Samsung Features-IceMaker PrimaryFinish-Color:BlackSS products displayed",
+      "uid" : "2f751f8c892a043d",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
       "time" : {
-        "start" : 1621714923639,
-        "stop" : 1621714923639,
+        "start" : 1621872414820,
+        "stop" : 1621872414820,
         "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-90.0.4430.212" ]
     }, {
-      "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive",
-      "uid" : "1e9195eaf22e935f",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "failed",
+      "name" : "Then I expect that see all the refrigerator that meet my search requirement",
+      "uid" : "debaaec2142fff15",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
       "time" : {
-        "start" : 1621714938451,
-        "stop" : 1621714938451,
+        "start" : 1621872414820,
+        "stop" : 1621872414820,
         "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-90.0.4430.212" ]
     }, {
-      "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone",
-      "uid" : "960d74937b00cebb",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "failed",
+      "name" : "Then I should see the average ratings displayed for the refrigerator",
+      "uid" : "7303d33e532d96cf",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
       "time" : {
-        "start" : 1621714950399,
-        "stop" : 1621714950399,
+        "start" : 1621872414821,
+        "stop" : 1621872414821,
         "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-90.0.4430.212" ]
     }, {
-      "name" : "Given I open the url \"https://www.bestbuy.com\"",
-      "uid" : "97d4cf8438356bf0",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "broken",
+      "name" : "And I should see the product specification displayed for the refrigerator",
+      "uid" : "8d5b963368c941b3",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
       "time" : {
-        "start" : 1621719558160,
-        "stop" : 1621719558532,
-        "duration" : 372
+        "start" : 1621872414821,
+        "stop" : 1621872414821,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "When I enter surface pro in the BestBuy search field",
+      "uid" : "2e1dc8d9600187cd",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621872414828,
+        "stop" : 1621872414829,
+        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-90.0.4430.212" ]
     }, {
       "name" : "Given I open the url \"<url>\"",
-      "uid" : "f19ced971c824730",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "broken",
+      "uid" : "fa849b78a6738f1b",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
       "time" : {
-        "start" : 1621720121189,
-        "stop" : 1621720121191,
-        "duration" : 2
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.212" ]
-    }, {
-      "name" : "Given I open the url <url>",
-      "uid" : "a1023c9fe438eceb",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "broken",
-      "time" : {
-        "start" : 1621720155141,
-        "stop" : 1621720155141,
+        "start" : 1621872414828,
+        "stop" : 1621872414828,
         "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-90.0.4430.212" ]
     }, {
-      "name" : "When I set vacuums to the BestBuy search field",
-      "uid" : "76668f3356533a0f",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "passed",
+      "name" : "And I should see the product specification displayed for the surface pro",
+      "uid" : "75b7bb6fac283431",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
       "time" : {
-        "start" : 1621724514607,
-        "stop" : 1621724524659,
-        "duration" : 10052
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.212" ]
-    }, {
-      "name" : "Then I expect that the h1 header contains the text vacuums",
-      "uid" : "302d01d6a18e6ca7",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621724524659,
-        "stop" : 1621724524883,
-        "duration" : 224
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.212" ]
-    }, {
-      "name" : "When I set tablets to the BestBuy search field",
-      "uid" : "5421babcd62277c2",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621724529439,
-        "stop" : 1621724533732,
-        "duration" : 4293
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.212" ]
-    }, {
-      "name" : "Then I expect that the h1 header contains the text tablets",
-      "uid" : "6a6267a1e59a8b22",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "broken",
-      "time" : {
-        "start" : 1621724533732,
-        "stop" : 1621724538782,
-        "duration" : 5050
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.212" ]
-    }, {
-      "name" : "When I set records vinyl to the BestBuy search field",
-      "uid" : "2166e01129c8ae2d",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621724542188,
-        "stop" : 1621724550874,
-        "duration" : 8686
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.212" ]
-    }, {
-      "name" : "Then I expect that the h1 header contains the text records vinyl",
-      "uid" : "10afc7e9693ea883",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621724550874,
-        "stop" : 1621724551106,
-        "duration" : 232
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.212" ]
-    }, {
-      "name" : "When I set flash drive to the BestBuy search field",
-      "uid" : "72d7581a38da977",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621724555316,
-        "stop" : 1621724563404,
-        "duration" : 8088
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.212" ]
-    }, {
-      "name" : "Then I expect that the h1 header contains the text flash drive",
-      "uid" : "e66bc7f59d6b4147",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621724563404,
-        "stop" : 1621724563656,
-        "duration" : 252
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.212" ]
-    }, {
-      "name" : "Given I open the url \"www.bestbuy.com\"",
-      "uid" : "b44b677fb636e4ac",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621724563663,
-        "stop" : 1621724567003,
-        "duration" : 3340
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.212" ]
-    }, {
-      "name" : "When I set mobile phone to the BestBuy search field",
-      "uid" : "ac2b86b4bbd93730",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621724567004,
-        "stop" : 1621724571508,
-        "duration" : 4504
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.212" ]
-    }, {
-      "name" : "Then I expect that the h1 header contains the text mobile phone",
-      "uid" : "44885bcd87e3947e",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "broken",
-      "time" : {
-        "start" : 1621724571508,
-        "stop" : 1621724576560,
-        "duration" : 5052
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-90.0.4430.212" ]
-    }, {
-      "name" : "Hook",
-      "uid" : "31cca017f5c9f688",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "passed",
-      "time" : {
-        "start" : 1621724576561,
-        "stop" : 1621724576562,
+        "start" : 1621872414830,
+        "stop" : 1621872414831,
         "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-90.0.4430.212" ]
     }, {
-      "name" : "Then I should be able to filter by condition",
-      "uid" : "a15a959f56966de4",
-      "parentUid" : "49c51a30aec21da33948fd9876461462",
-      "status" : "broken",
+      "name" : "Then I should see the average ratings displayed for the surface pro",
+      "uid" : "b3ef93a8d77b2132",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
       "time" : {
-        "start" : 1621724576561,
-        "stop" : 1621724576561,
+        "start" : 1621872414830,
+        "stop" : 1621872414830,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "When I click on a surface pro matching sku: 6375049",
+      "uid" : "5959803d5dba451c",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621872414830,
+        "stop" : 1621872414830,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Then I should be able to apply 3 filters to limit the Ram-16-Gigabytes Storage-Capacity-1000-Gigabytes Features-FF-Camera products displayed",
+      "uid" : "b3c9005da39dd3bd",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621872414830,
+        "stop" : 1621872414830,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Then I expect that see all the surface pro that meet my search requirement",
+      "uid" : "be433990e8ece74",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621872414830,
+        "stop" : 1621872414830,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "e4b27ef6c7f1b131",
+      "parentUid" : "08b491621cd768ffc03386e364b1ff5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621872414831,
+        "stop" : 1621872414831,
         "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-90.0.4430.212" ]
     } ],
-    "uid" : "49c51a30aec21da33948fd9876461462"
-  } ],
-  "name" : "packages"
+    "uid" : "08b491621cd768ffc03386e364b1ff5e"
+  }, {
+    "name" : "Search offers typo correction suggestions: Search offers suggestions despite query typo",
+    "children" : [ {
+      "name" : "Given I open the url \"<url>\"",
+      "uid" : "478b16e7e61b3bf0",
+      "parentUid" : "196a9509192c6672478ef12caf395be8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621872418821,
+        "stop" : 1621872418825,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "When I enter tlevision in the BestBuy search field",
+      "uid" : "1239aefea2387ece",
+      "parentUid" : "196a9509192c6672478ef12caf395be8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621872418826,
+        "stop" : 1621872418826,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Then I expect the site to return <product> results despite the typo",
+      "uid" : "e5e01c992bac5afd",
+      "parentUid" : "196a9509192c6672478ef12caf395be8",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1621872418827,
+        "stop" : 1621872418827,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "1bb191134068711f",
+      "parentUid" : "196a9509192c6672478ef12caf395be8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621872418827,
+        "stop" : 1621872418827,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.212" ]
+    } ],
+    "uid" : "196a9509192c6672478ef12caf395be8"
+  } ]
 }

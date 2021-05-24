@@ -1,0 +1,56 @@
+{
+  "uid" : "26ce1217ef944d42",
+  "name" : "Given I open the url \"<url>\"",
+  "fullName" : "Best Buy Product Search: I should be able to search for a product.Given I open the url \"<url>\"",
+  "historyId" : "2289e2f8f9ddd464a471b395e5a0c381",
+  "time" : {
+    "start" : 1621872414819,
+    "stop" : 1621872414819,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I open the url \"<url>\""
+  }, {
+    "name" : "package",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26ce1217ef944d42.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

@@ -1,0 +1,58 @@
+{
+  "uid" : "5959803d5dba451c",
+  "name" : "When I click on a surface pro matching sku: 6375049",
+  "fullName" : "Best Buy Product Search: I should be able to search for a product.When I click on a surface pro matching sku: 6375049",
+  "historyId" : "1d121601a5bc04c1abb9fab25b31277a",
+  "time" : {
+    "start" : 1621872414830,
+    "stop" : 1621872414830,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on a surface pro matching sku: 6375049"
+  }, {
+    "name" : "package",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5959803d5dba451c.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

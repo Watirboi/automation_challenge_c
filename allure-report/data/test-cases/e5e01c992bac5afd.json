@@ -1,0 +1,58 @@
+{
+  "uid" : "e5e01c992bac5afd",
+  "name" : "Then I expect the site to return <product> results despite the typo",
+  "fullName" : "Search offers typo correction suggestions: Search offers suggestions despite query typo.Then I expect the site to return <product> results despite the typo",
+  "historyId" : "4059d37be463c658f3daf10887992106",
+  "time" : {
+    "start" : 1621872418827,
+    "stop" : 1621872418827,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Search offers typo correction suggestions: Search offers suggestions despite query typo"
+  }, {
+    "name" : "testClass",
+    "value" : "Search offers typo correction suggestions: Search offers suggestions despite query typo"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I expect the site to return <product> results despite the typo"
+  }, {
+    "name" : "package",
+    "value" : "Search offers typo correction suggestions: Search offers suggestions despite query typo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e5e01c992bac5afd.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

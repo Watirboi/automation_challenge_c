@@ -1,0 +1,66 @@
+{
+  "uid" : "1bb191134068711f",
+  "name" : "Hook",
+  "fullName" : "Search offers typo correction suggestions: Search offers suggestions despite query typo.Hook",
+  "historyId" : "29335830193aa19ddca224f8f6cc3058",
+  "time" : {
+    "start" : 1621872418827,
+    "stop" : 1621872418827,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Search offers typo correction suggestions: Search offers suggestions despite query typo"
+  }, {
+    "name" : "testClass",
+    "value" : "Search offers typo correction suggestions: Search offers suggestions despite query typo"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "Search offers typo correction suggestions: Search offers suggestions despite query typo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4160d8a5b50f053c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621872418819,
+        "stop" : 1621872418821,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1bb191134068711f.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

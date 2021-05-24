@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "test": "wdio run wdio.conf.js",
-    "debug": "node --debug-brk ./wdio.conf.js"
+    "debug": "node --debug-brk ./wdio.conf.js",
+    "allure-reports": "allure generate allure-results --clean && allure open"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
     "chromedriver": "^90.0.1",
     "expect-webdriverio": "^3.0.0",
     "resq": "^1.10.0",
-    "wdio-chromedriver-service": "^5.0.2"
+    "wdio-chromedriver-service": "^5.0.2",
+    "wdio-video-reporter": "^3.1.1"
   }
 }

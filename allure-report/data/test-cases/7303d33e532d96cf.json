@@ -1,0 +1,58 @@
+{
+  "uid" : "7303d33e532d96cf",
+  "name" : "Then I should see the average ratings displayed for the refrigerator",
+  "fullName" : "Best Buy Product Search: I should be able to search for a product.Then I should see the average ratings displayed for the refrigerator",
+  "historyId" : "fc505054b1118a5dd95b83aa321b19d2",
+  "time" : {
+    "start" : 1621872414821,
+    "stop" : 1621872414821,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see the average ratings displayed for the refrigerator"
+  }, {
+    "name" : "package",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7303d33e532d96cf.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

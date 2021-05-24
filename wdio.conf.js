@@ -1,3 +1,6 @@
+const moment = require('moment');
+const video = require('wdio-video-reporter');
+
 exports.config = {
     debug: true,
     // execArgv: ['--inspect-brk-127.0.0.1:5859'],
@@ -125,14 +128,22 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec',
+    
+    reporters: [
+        'spec',
         [
             'allure', {
                 outputDir: 'allure-results',
                 disableWebdriverStepsReporting: true,
                 disableWebdriverScreenshotsReporting: true,
             }
-        ]
+        ],
+        [
+            video, {
+            saveAllVideos: false, // If true, also saves videos for successful test cases
+            videoSlowdownMultiplier: 3, // Higher to get slower videos, lower for faster videos [Value 1-100]
+            }
+        ],
     ],
     //
     // If you are using Cucumber you need to specify the location of your step definitions.
@@ -211,8 +222,13 @@ exports.config = {
     /**
      * Runs after a Cucumber step
      */
-    // afterStep: function (uri, feature, { error, result, duration, passed }, stepData, context) {
-    // },
+    afterStep: function (uri, feature, { error, result, duration, passed }, stepData, context) {
+        if(error) {
+            
+                        browser.saveScreenshot('./reports/screenshots/Fail_' + moment().format('DD-MMM-YYYY-HH-MM-SS') + '.png')
+            
+        }
+    },
     /**
      * Runs after a Cucumber scenario
      */

@@ -1,0 +1,58 @@
+{
+  "uid" : "f32e3f6e56438095",
+  "name" : "Then I should see the average ratings displayed for the television",
+  "fullName" : "Best Buy Product Search: I should be able to search for a product.Then I should see the average ratings displayed for the television",
+  "historyId" : "828c2cd37978ba6c2ba1730926aded2b",
+  "time" : {
+    "start" : 1621872414807,
+    "stop" : 1621872414807,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should see the average ratings displayed for the television"
+  }, {
+    "name" : "package",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f32e3f6e56438095.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

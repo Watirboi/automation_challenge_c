@@ -1,0 +1,98 @@
+{
+  "uid" : "e4b27ef6c7f1b131",
+  "name" : "Hook",
+  "fullName" : "Best Buy Product Search: I should be able to search for a product.Hook",
+  "historyId" : "55be4e1e3bd3b8e87699ce9340f8a6f0",
+  "time" : {
+    "start" : 1621872414831,
+    "stop" : 1621872414831,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fb84c2c7fa2212f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621872414827,
+        "stop" : 1621872414827,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bf8f835fe2f1c325",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621872414821,
+        "stop" : 1621872414822,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "bfe61f6b629bebb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621872414818,
+        "stop" : 1621872414818,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a11644086f0ca82d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621872414807,
+        "stop" : 1621872414808,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "75ade5ccbed78986",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621872414797,
+        "stop" : 1621872414799,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e4b27ef6c7f1b131.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

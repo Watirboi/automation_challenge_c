@@ -1,0 +1,58 @@
+{
+  "uid" : "2e1dc8d9600187cd",
+  "name" : "When I enter surface pro in the BestBuy search field",
+  "fullName" : "Best Buy Product Search: I should be able to search for a product.When I enter surface pro in the BestBuy search field",
+  "historyId" : "b789b707179ff8b32688375fbf088a94",
+  "time" : {
+    "start" : 1621872414828,
+    "stop" : 1621872414829,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I enter surface pro in the BestBuy search field"
+  }, {
+    "name" : "package",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2e1dc8d9600187cd.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

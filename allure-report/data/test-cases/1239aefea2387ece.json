@@ -1,0 +1,58 @@
+{
+  "uid" : "1239aefea2387ece",
+  "name" : "When I enter tlevision in the BestBuy search field",
+  "fullName" : "Search offers typo correction suggestions: Search offers suggestions despite query typo.When I enter tlevision in the BestBuy search field",
+  "historyId" : "80a10f6b4d8e0f47b60f327e202b7e93",
+  "time" : {
+    "start" : 1621872418826,
+    "stop" : 1621872418826,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Search offers typo correction suggestions: Search offers suggestions despite query typo"
+  }, {
+    "name" : "testClass",
+    "value" : "Search offers typo correction suggestions: Search offers suggestions despite query typo"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I enter tlevision in the BestBuy search field"
+  }, {
+    "name" : "package",
+    "value" : "Search offers typo correction suggestions: Search offers suggestions despite query typo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1239aefea2387ece.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

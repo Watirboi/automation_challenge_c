@@ -1,15 +1,26 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
-    "uid" : "5dd4422be0b7ad7c365512284683a061",
-    "name" : "Product Search: I should be able to search for a product",
+    "uid" : "8d817c6d1498a3329aa9dd1e72a9b667",
+    "name" : "Best Buy Product Search: I should be able to search for a product",
     "statistic" : {
-      "failed" : 5,
-      "broken" : 6,
-      "skipped" : 0,
-      "passed" : 10,
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 19,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 21
+      "total" : 20
+    }
+  }, {
+    "uid" : "8187dbe0b5f024a8c3240a1250019758",
+    "name" : "Search offers typo correction suggestions: Search offers suggestions despite query typo",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 3,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 4
     }
   } ]
 }

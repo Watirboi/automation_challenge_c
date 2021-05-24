@@ -1,211 +1,241 @@
 [ {
-  "uid" : "a1023c9fe438eceb",
-  "name" : "Given I open the url <url>",
+  "uid" : "1239aefea2387ece",
+  "name" : "When I enter tlevision in the BestBuy search field",
   "time" : {
-    "start" : 1621720155141,
-    "stop" : 1621720155141,
+    "start" : 1621872418826,
+    "stop" : 1621872418826,
     "duration" : 0
   },
-  "status" : "broken",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "1e9195eaf22e935f",
-  "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text flash drive",
+  "uid" : "debaaec2142fff15",
+  "name" : "Then I expect that see all the refrigerator that meet my search requirement",
   "time" : {
-    "start" : 1621714938451,
-    "stop" : 1621714938451,
+    "start" : 1621872414820,
+    "stop" : 1621872414820,
     "duration" : 0
   },
-  "status" : "failed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "960d74937b00cebb",
-  "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text mobile phone",
-  "time" : {
-    "start" : 1621714950399,
-    "stop" : 1621714950399,
-    "duration" : 0
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "2166e01129c8ae2d",
-  "name" : "When I set records vinyl to the BestBuy search field",
-  "time" : {
-    "start" : 1621724542188,
-    "stop" : 1621724550874,
-    "duration" : 8686
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f19ced971c824730",
+  "uid" : "478b16e7e61b3bf0",
   "name" : "Given I open the url \"<url>\"",
   "time" : {
-    "start" : 1621720121189,
-    "stop" : 1621720121191,
-    "duration" : 2
+    "start" : 1621872418821,
+    "stop" : 1621872418825,
+    "duration" : 4
   },
-  "status" : "broken",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "e66bc7f59d6b4147",
-  "name" : "Then I expect that the h1 header contains the text flash drive",
+  "uid" : "b3ef93a8d77b2132",
+  "name" : "Then I should see the average ratings displayed for the surface pro",
   "time" : {
-    "start" : 1621724563404,
-    "stop" : 1621724563656,
-    "duration" : 252
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ac2b86b4bbd93730",
-  "name" : "When I set mobile phone to the BestBuy search field",
-  "time" : {
-    "start" : 1621724567004,
-    "stop" : 1621724571508,
-    "duration" : 4504
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fc45961f0a103685",
-  "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text vacuums",
-  "time" : {
-    "start" : 1621714892051,
-    "stop" : 1621714892052,
-    "duration" : 1
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "a15a959f56966de4",
-  "name" : "Then I should be able to filter by condition",
-  "time" : {
-    "start" : 1621724576561,
-    "stop" : 1621724576561,
+    "start" : 1621872414830,
+    "stop" : 1621872414830,
     "duration" : 0
   },
-  "status" : "broken",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "72d7581a38da977",
-  "name" : "When I set flash drive to the BestBuy search field",
-  "time" : {
-    "start" : 1621724555316,
-    "stop" : 1621724563404,
-    "duration" : 8088
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "10afc7e9693ea883",
-  "name" : "Then I expect that the h1 header contains the text records vinyl",
-  "time" : {
-    "start" : 1621724550874,
-    "stop" : 1621724551106,
-    "duration" : 232
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "31cca017f5c9f688",
+  "uid" : "e4b27ef6c7f1b131",
   "name" : "Hook",
   "time" : {
-    "start" : 1621724576561,
-    "stop" : 1621724576562,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "76668f3356533a0f",
-  "name" : "When I set vacuums to the BestBuy search field",
-  "time" : {
-    "start" : 1621724514607,
-    "stop" : 1621724524659,
-    "duration" : 10052
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5421babcd62277c2",
-  "name" : "When I set tablets to the BestBuy search field",
-  "time" : {
-    "start" : 1621724529439,
-    "stop" : 1621724533732,
-    "duration" : 4293
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "97d4cf8438356bf0",
-  "name" : "Given I open the url \"https://www.bestbuy.com\"",
-  "time" : {
-    "start" : 1621719558160,
-    "stop" : 1621719558532,
-    "duration" : 372
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ce89cbe0744430d7",
-  "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text tablets",
-  "time" : {
-    "start" : 1621714904702,
-    "stop" : 1621714904703,
-    "duration" : 1
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "6a6267a1e59a8b22",
-  "name" : "Then I expect that the h1 header contains the text tablets",
-  "time" : {
-    "start" : 1621724533732,
-    "stop" : 1621724538782,
-    "duration" : 5050
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "44885bcd87e3947e",
-  "name" : "Then I expect that the h1 header contains the text mobile phone",
-  "time" : {
-    "start" : 1621724571508,
-    "stop" : 1621724576560,
-    "duration" : 5052
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "302d01d6a18e6ca7",
-  "name" : "Then I expect that the h1 header contains the text vacuums",
-  "time" : {
-    "start" : 1621724524659,
-    "stop" : 1621724524883,
-    "duration" : 224
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b44b677fb636e4ac",
-  "name" : "Given I open the url \"www.bestbuy.com\"",
-  "time" : {
-    "start" : 1621724563663,
-    "stop" : 1621724567003,
-    "duration" : 3340
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fd98787952e643cc",
-  "name" : "Then I expect that element \"#search-header-1 > div > div > div.title-wrapper.title > span:nth-child(2) > span:nth-child(1) > h1\" contains the text records vinyl",
-  "time" : {
-    "start" : 1621714923639,
-    "stop" : 1621714923639,
+    "start" : 1621872414831,
+    "stop" : 1621872414831,
     "duration" : 0
   },
-  "status" : "failed",
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3c9005da39dd3bd",
+  "name" : "Then I should be able to apply 3 filters to limit the Ram-16-Gigabytes Storage-Capacity-1000-Gigabytes Features-FF-Camera products displayed",
+  "time" : {
+    "start" : 1621872414830,
+    "stop" : 1621872414830,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5959803d5dba451c",
+  "name" : "When I click on a surface pro matching sku: 6375049",
+  "time" : {
+    "start" : 1621872414830,
+    "stop" : 1621872414830,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8d5b963368c941b3",
+  "name" : "And I should see the product specification displayed for the refrigerator",
+  "time" : {
+    "start" : 1621872414821,
+    "stop" : 1621872414821,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f6dbd827afcf14b2",
+  "name" : "And I should see the product specification displayed for the television",
+  "time" : {
+    "start" : 1621872414807,
+    "stop" : 1621872414807,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "71582d961e8f3c2",
+  "name" : "When I click on a refrigerator matching sku: 5580245",
+  "time" : {
+    "start" : 1621872414820,
+    "stop" : 1621872414821,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f7a81dacafb352ee",
+  "name" : "When I enter refrigerator in the BestBuy search field",
+  "time" : {
+    "start" : 1621872414819,
+    "stop" : 1621872414820,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2f751f8c892a043d",
+  "name" : "Then I should be able to apply 3 filters to limit the Brand-Samsung Features-IceMaker PrimaryFinish-Color:BlackSS products displayed",
+  "time" : {
+    "start" : 1621872414820,
+    "stop" : 1621872414820,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e5e01c992bac5afd",
+  "name" : "Then I expect the site to return <product> results despite the typo",
+  "time" : {
+    "start" : 1621872418827,
+    "stop" : 1621872418827,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7023b50da47ccd23",
+  "name" : "Then I expect that see all the television that meet my search requirement",
+  "time" : {
+    "start" : 1621872414806,
+    "stop" : 1621872414806,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "cd9dd8a1278ddf41",
+  "name" : "Then I should be able to apply 3 filters to limit the New Birthday Top-Rated products displayed",
+  "time" : {
+    "start" : 1621872414806,
+    "stop" : 1621872414806,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7303d33e532d96cf",
+  "name" : "Then I should see the average ratings displayed for the refrigerator",
+  "time" : {
+    "start" : 1621872414821,
+    "stop" : 1621872414821,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f32e3f6e56438095",
+  "name" : "Then I should see the average ratings displayed for the television",
+  "time" : {
+    "start" : 1621872414807,
+    "stop" : 1621872414807,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "845acf7894471584",
+  "name" : "When I enter television in the BestBuy search field",
+  "time" : {
+    "start" : 1621872414805,
+    "stop" : 1621872414805,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "75b7bb6fac283431",
+  "name" : "And I should see the product specification displayed for the surface pro",
+  "time" : {
+    "start" : 1621872414830,
+    "stop" : 1621872414831,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e88cdd5209f6ffa6",
+  "name" : "When I click on a television matching sku: 6395127",
+  "time" : {
+    "start" : 1621872414806,
+    "stop" : 1621872414806,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2e1dc8d9600187cd",
+  "name" : "When I enter surface pro in the BestBuy search field",
+  "time" : {
+    "start" : 1621872414828,
+    "stop" : 1621872414829,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "be433990e8ece74",
+  "name" : "Then I expect that see all the surface pro that meet my search requirement",
+  "time" : {
+    "start" : 1621872414830,
+    "stop" : 1621872414830,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "fa849b78a6738f1b",
+  "name" : "Given I open the url \"<url>\"",
+  "time" : {
+    "start" : 1621872414828,
+    "stop" : 1621872414828,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1bb191134068711f",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1621872418827,
+    "stop" : 1621872418827,
+    "duration" : 0
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]

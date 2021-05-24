@@ -1,0 +1,58 @@
+{
+  "uid" : "f6dbd827afcf14b2",
+  "name" : "And I should see the product specification displayed for the television",
+  "fullName" : "Best Buy Product Search: I should be able to search for a product.And I should see the product specification displayed for the television",
+  "historyId" : "eabcce3c2119a0289c3cab98649fc00b",
+  "time" : {
+    "start" : 1621872414807,
+    "stop" : 1621872414807,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I should see the product specification displayed for the television"
+  }, {
+    "name" : "package",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f6dbd827afcf14b2.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

@@ -1,0 +1,58 @@
+{
+  "uid" : "cd9dd8a1278ddf41",
+  "name" : "Then I should be able to apply 3 filters to limit the New Birthday Top-Rated products displayed",
+  "fullName" : "Best Buy Product Search: I should be able to search for a product.Then I should be able to apply 3 filters to limit the New Birthday Top-Rated products displayed",
+  "historyId" : "6125bd78804a40d97360fa622dea4ee5",
+  "time" : {
+    "start" : 1621872414806,
+    "stop" : 1621872414806,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testClass",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I should be able to apply 3 filters to limit the New Birthday Top-Rated products displayed"
+  }, {
+    "name" : "package",
+    "value" : "Best Buy Product Search: I should be able to search for a product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd9dd8a1278ddf41.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}
