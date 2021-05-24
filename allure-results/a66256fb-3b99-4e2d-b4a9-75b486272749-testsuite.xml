@@ -1,0 +1,139 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621822260276' stop='1621822295784'>
+    <name>Best Buy Product Search: I should be able to search for a product</name>
+    <title>Best Buy Product Search: I should be able to search for a product</title>
+    <test-cases>
+        <test-case start='1621822260277' status='passed' stop='1621822260280'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621822260280' status='passed' stop='1621822267977'>
+            <name>Given I open the url "&lt;url>"</name>
+            <title>Given I open the url "&lt;url>"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621822267977' status='passed' stop='1621822278294'>
+            <name>When I set television to the BestBuy search field</name>
+            <title>When I set television to the BestBuy search field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621822278294' status='passed' stop='1621822278498'>
+            <name>Then I expect that the h1 header contains the text television</name>
+            <title>Then I expect that the h1 header contains the text television</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621822278498' status='passed' stop='1621822284650'>
+            <name>Then I should be able to apply filter by selected New Birthday Top-Rated</name>
+            <title>Then I should be able to apply filter by selected New Birthday Top-Rated</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621822284650' status='passed' stop='1621822290738'>
+            <name>When I click on a television 6395127</name>
+            <title>When I click on a television 6395127</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621822290738' status='broken' stop='1621822295781'>
+            <name>Then I should see the average ratings displayed for television</name>
+            <title>Then I should see the average ratings displayed for television</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'forEach' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'forEach' of undefined
+                    at LandingPage.isAvgRatingsDisplayed (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/pageobjects/landing.page.js:139:31)
+                    at World.&lt;anonymous> (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/step-definitions/steps.js:33:17)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621822295782' status='pending' stop='1621822295782'>
+            <name>Then I should see the product specification displayed for television</name>
+            <title>Then I should see the product specification displayed for television</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621822295782' status='passed' stop='1621822295783'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

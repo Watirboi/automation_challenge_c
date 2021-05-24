@@ -20,13 +20,19 @@ Then(/^I expect that the h1 header contains the text (.*)$/, (products) => {
     assert.strictEqual(landingPage.verifySearchDisplayedInResultsForText(products), true, "did not match");
 });
 
-Then(/^I should be able to filter by selected conditions$/, () => {
-    landingPage.applyNewConditionFilter();
-    landingPage.applyGiftIdeasForHerFilter();
-    landingPage.applyCustomerRatingTopRatedFilter();
-    landingPage.filterSelectionBtns();
+Then(/^I should be able to apply filter by selected (.*)$/, (parameters) => {
+    landingPage.clickFilterOptions(parameters);
+    // landingPage.verifyFiltersSelected(parameters);
 });
 
-Then(/^I should be able to filter by open-box condition$/, () => {
-    landingPage.applyOpenBoxFilter();
+When(/^I click on a (.*) (.*)$/, (products,sku) => {
+    landingPage.clickProduct(products,sku);
+});
+
+Then(/^I should see the average ratings displayed for (.*)$/, (products) => {
+    landingPage.isAvgRatingsDisplayed(products);
+});
+
+Then(/^I should see the product specification displayed for (.*)$/, (products) => {
+    landingPage.isProductSpecificationDisplayed(products);
 });

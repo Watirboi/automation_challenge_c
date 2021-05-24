@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621730191664' stop='1621730224480'>
-    <name>Product Search: I should be able to search for a product</name>
-    <title>Product Search: I should be able to search for a product</title>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621824609135' stop='1621824651456'>
+    <name>Best Buy Product Search: I should be able to search for a product</name>
+    <title>Best Buy Product Search: I should be able to search for a product</title>
     <test-cases>
-        <test-case start='1621730191665' status='passed' stop='1621730191667'>
+        <test-case start='1621824609136' status='passed' stop='1621824609138'>
             <name>Hook</name>
             <title>Hook</title>
             <labels>
@@ -17,9 +17,9 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1621730191667' status='passed' stop='1621730200889'>
-            <name>Given I open the url "www.bestbuy.com"</name>
-            <title>Given I open the url "www.bestbuy.com"</title>
+        <test-case start='1621824609139' status='passed' stop='1621824616650'>
+            <name>Given I open the url "&lt;url>"</name>
+            <title>Given I open the url "&lt;url>"</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
@@ -31,7 +31,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1621730200889' status='passed' stop='1621730210980'>
+        <test-case start='1621824616650' status='passed' stop='1621824625964'>
             <name>When I set television to the BestBuy search field</name>
             <title>When I set television to the BestBuy search field</title>
             <labels>
@@ -45,7 +45,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1621730210980' status='passed' stop='1621730211220'>
+        <test-case start='1621824625965' status='passed' stop='1621824626151'>
             <name>Then I expect that the h1 header contains the text television</name>
             <title>Then I expect that the h1 header contains the text television</title>
             <labels>
@@ -59,9 +59,37 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1621730211220' status='broken' stop='1621730224477'>
-            <name>Then I should be able to filter by selected conditions</name>
-            <title>Then I should be able to filter by selected conditions</title>
+        <test-case start='1621824626152' status='passed' stop='1621824632378'>
+            <name>Then I should be able to apply filter by selected New Birthday Top-Rated</name>
+            <title>Then I should be able to apply filter by selected New Birthday Top-Rated</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621824632378' status='passed' stop='1621824646408'>
+            <name>When I click on a television 6395127</name>
+            <title>When I click on a television 6395127</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621824646409' status='broken' stop='1621824651453'>
+            <name>Then I should see the average ratings displayed for television</name>
+            <title>Then I should see the average ratings displayed for television</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
@@ -73,15 +101,15 @@
             <steps/>
             <attachments/>
             <failure>
-                <message>Can't call scrollIntoView on element with selector "#giftcenter_facet-For-Her-1" because element wasn't found</message>
-                <stack-trace>Error: Can't call scrollIntoView on element with selector "#giftcenter_facet-For-Her-1" because element wasn't found
-                    at LandingPage.applyGiftIdeasForHerFilter (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/pageobjects/landing.page.js:73:42)
-                    at World.&lt;anonymous> (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/step-definitions/steps.js:25:17)</stack-trace>
+                <message>$(...).parentElement is not a function</message>
+                <stack-trace>TypeError: $(...).parentElement is not a function
+                    at LandingPage.isAvgRatingsDisplayed (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/pageobjects/landing.page.js:139:48)
+                    at World.&lt;anonymous> (/Users/kapatrickwhitfield/development/projects/automation_challenge_c/test/step-definitions/steps.js:33:17)</stack-trace>
             </failure>
         </test-case>
-        <test-case start='1621730224478' status='pending' stop='1621730224478'>
-            <name>Then I should be able to filter by open-box condition</name>
-            <title>Then I should be able to filter by open-box condition</title>
+        <test-case start='1621824651454' status='pending' stop='1621824651454'>
+            <name>Then I should see the product specification displayed for television</name>
+            <title>Then I should see the product specification displayed for television</title>
             <labels>
                 <label name='language' value='javascript'/>
                 <label name='framework' value='wdio'/>
@@ -93,7 +121,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1621730224479' status='passed' stop='1621730224480'>
+        <test-case start='1621824651455' status='passed' stop='1621824651455'>
             <name>Hook</name>
             <title>Hook</title>
             <labels>
