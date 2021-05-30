@@ -23,8 +23,8 @@ When(/^I click on a (.*) matching sku: (.*)$/, (products,sku) => {
     landingPage.clickProduct(products,sku);
 });
 
-Then(/^I should see the average ratings displayed for the (.*)$/, (products) => {
-    landingPage.isAvgRatingsDisplayed(products);
+Then(/^I should see the average ratings displayed for this (.*), sku id: (.*)$/, (products,sku) => {
+    landingPage.isAvgRatingsDisplayed(products,sku);
 });
 
 Then(/^I should see the product specification displayed for the (.*)$/, (products) => {

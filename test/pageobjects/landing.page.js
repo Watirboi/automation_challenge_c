@@ -22,6 +22,10 @@ class LandingPage extends Page {
 
     get productSkus() { return $$('div.list-item.lv > div > a > img')}
 
+    get openAccordionReviewsPanelBtn () { return $('button[data-track="customerreviewstab Open"]') }
+
+    get reviewsOnPage () { return $$('ul.reviews-list > li') }
+    
     // get ratingsReviewIds() { return $$('div.v-m-bottom-l > div > div > ul > li.ugc-stat.customer-review-stats > span > a > div > span.ugc-c-review-average') }
     get ratingsReviewIds() { return $$('[id^="user-generated-content-ugc-stats"]')}
 
@@ -189,28 +193,28 @@ class LandingPage extends Page {
     }
 
     /* Average Ratings */
-    isAvgRatingsDisplayed(product) {
-        expect($('div.v-m-bottom-l > div > div > ul > li.ugc-stat.customer-review-stats > span > a > div > span.ugc-c-review-average').isDisplayed()).toBe(true);
-        browser.pause(2000);
-        // console.log($("Average Rating for " + product + 'div.v-m-bottom-l > div > div > ul > li.ugc-stat.customer-review-stats > span > a > div > span.ugc-c-review-average').getText());
+    isAvgRatingsDisplayed(product, sku) {
+        const avgRating = $(`a[href$="/${sku}.p?skuId=${sku}#tabbed-customerreviews"] div > span.ugc-c-review-average`);
+        avgRating.waitForDisplayed(5000);
+        console.log(avgRating.getText());
+        console.log(`The average user rating for product ${product} is: ${avgRating.getText()}`);
     }
 
     isProductSpecificationDisplayed(product) {
-        // console.log("Product Spec function...");
+        console.log("Product Spec function...");
         expect($('span=Specifications').isDisplayed()).toBe(true);
-        //  $("#review-summary-v2 > div > div.ugc-rating-summary-wrapper.has-expert-reviews > div.ugc-rating-summary > div > div > span")
     }
 
     consoleLogTop3Reviews() {
-        // console.log($("#review-summary-v2 > div > div.ugc-rating-summary-wrapper.has-expert-reviews > div.ugc-rating-summary > div > div > span").getText());
-        console.log($("div.v-m-bottom-s.v-border.v-border-bottom > div > div > div > div > div > div > #reviews-accordion > div.row.ugc-reviews.clearfix > div > div > ul > li:nth-child(1) > div > div.review-item-content.col-xs-12.col-md-8.col-lg-9 > div.ugc-review-body.body-copy-lg > div > p").getText());
-        // $$('[id^="user-generated-content-ratings-and-reviews"]').filter(rrcid => {
-        //     console.log(rrcid);
-        // });
-        // console.log(this.ratingsReviewCommentsIds);
-        document.querySelector("#user-generated-content-ratings-and-reviews-20051722-ce97-4aa8-a84e-d8c69705b57e > div > div > div:nth-child(1) > button").click()
-
-        document.querySelector("#shop-specifications-40506362 > div > section > div > div > div:nth-child(1) > button > span")
+        // browser.debug();
+        this.openReviewsAccordionPanel();
+        console.log(`There are ${this.reviewsOnPage.length} reviews on this page`);
+        // Capture the top 3 reviews for this product
+        for (var i=1; i<4; i++) {
+            const review = $(`#reviews-accordion > div.row.ugc-reviews.clearfix > div > div > ul > li:nth-child(${i}) > div > div.review-item-content.col-xs-12.col-md-8.col-lg-9 > div.ugc-review-body.body-copy-lg > div > p`);
+            review.waitForExist(6000);
+            console.log('\x1b[33m%s\x1b[0m', `Review #${i}: ` + review.getText());
+        }
     }
 
     searchCorrectionDisplay(product) {
@@ -220,9 +224,8 @@ class LandingPage extends Page {
     }
 
     getReturnItemCount() {
-        let returnedItemCount = $("#sku-list-1 > div > div > div:nth-child(2) > div > div.banner-middle-column > span");
-        console.log("Returned Items: " + returnedItemCount);
-        // returnedItemCount.isDisplayed();
+        let reviewsCount = $('a[href$="/${sku}.p?skuId=${sku}#tabbed-customerreviews"] div > span.c-reviews-v4')[0].getText(0);
+        console.log(`This product returned: ${reviewsCount} reviews.`);
     }
 
     isReturnedCountDisplayed() {
@@ -231,6 +234,13 @@ class LandingPage extends Page {
 
     navigateBack() {
         browser.back()
+    }
+
+    openReviewsAccordionPanel() {
+        // Open the `Reviews` accordion panel
+        this.openAccordionReviewsPanelBtn.scrollIntoView();
+        this.openAccordionReviewsPanelBtn.click();
+        browser.pause(5000);
     }
 
     compareReturnedItems() {
