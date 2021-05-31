@@ -7,14 +7,14 @@ pipeline {
         
     stage('Git') {
       steps {
-        echo 'Getting Repository.',
+        echo 'Getting Repository.'
         git 'https://github.com/Watirboi/automation_challenge_c.git'
       }
     }
      
     stage('Build') {
       steps {
-        echo 'Building..',
+        echo 'Building..'
         sh 'npm install'
       }
     }  
@@ -22,7 +22,7 @@ pipeline {
             
     stage('Test') {
       steps {
-        echo 'Testing...',
+        echo 'Testing...'
         sh 'npx wdio'
       }
     }
