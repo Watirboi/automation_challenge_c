@@ -3,7 +3,7 @@
 WebdriverIO framework that uses ES6 (with Babel), Cucumber, Page Object model, Allure
 Note that this example uses a retail website.
 
-![Automation Sample](sample-video.gif)
+![Automation Sample](https://github.com/Watirboi/automation_challenge_c/blob/main/sample-video.gif)
 
 ## Requirements:
 ---
