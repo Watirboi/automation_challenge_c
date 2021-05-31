@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  triggers {
+      cron('H */4 ** 1-5')
+  }
     
   //tools {nodejs "node"}
     
@@ -8,7 +11,7 @@ pipeline {
     stage('Git') {
       steps {
         echo 'Getting Repository.'
-        git 'https://github.com/Watirboi/automation_challenge_c.git'
+        git url: 'https://github.com/Watirboi/automation_challenge_c.git', branch: 'main'
       }
     }
      
