@@ -11,7 +11,7 @@ pipeline {
     stage('Git') {
       steps {
         echo 'Getting Repository.'
-        git url: 'https://github.com/Watirboi/automation_challenge_c.git', branch: 'main'
+        git branch: 'main', url: 'https://github.com/Watirboi/automation_challenge_c.git'
       }
     }
      
