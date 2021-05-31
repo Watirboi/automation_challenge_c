@@ -1,7 +1,9 @@
 # automation_challenge_c
 
-WebdriverIO framework that uses ES6 (with Babel), Cucumber, Page Object model, Allure
-Note that this example uses a retail website.
+WebdriverIO framework that uses ES6 (with Babel), Cucumber, Page Object model, Allure.
+Note that this example uses a retail website.  
+
+It peforms a search for a retail store product.  It captures reviews and verifies product specification is displayed.  Filtering is done to limit the resultset.  Average rating is also captured.  The review count and top 3 reviews are captured to console.
 
 ![Automation Sample](https://github.com/Watirboi/automation_challenge_c/blob/main/sample-video.gif)
 
